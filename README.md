@@ -48,7 +48,7 @@ Andres
 Lourdes
 Jesús
 Elías 
-Jonathan
+Jonathan Ibáñez
 Rayan
 ## :arrow_right: https://www.linkedin.com/in/elias-javier-riquelme-b62655297/
 
