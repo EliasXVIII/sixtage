@@ -199,10 +199,24 @@
 
 
 
-/* ****************yisus************************** */
+/**************yisus********************/
 
-
-
+footer{
+    background-color: var(--cuarto);
+    height: 10rem;
+    display: flex;
+}
+.numeroPaginaJ{
+    flex-direction: column;
+    margin: auto;
+}
+.contenedorImagenRedeFooter{
+    margin: auto;
+}
+.copyright{
+    background-color: var(--secundario);
+    text-align: center;
+}
 
 
 
