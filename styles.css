@@ -234,9 +234,14 @@ footer{
 .numeroPaginaJ{
     flex-direction: column;
     margin: auto;
+    text-align: center;
+    margin-left: 0rem;
+    margin-left: 2rem;
 }
 .contenedorImagenRedeFooter{
     margin: auto;
+    margin-right: 0rem;
+    margin-right: 2rem;
 }
 .copyright{
     background-color: var(--secundario);
