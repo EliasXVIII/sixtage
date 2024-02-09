@@ -1,6 +1,7 @@
 *{
     margin: 0 auto;
     box-sizing: content-box;
+    font-family: "Old Standard TT", serif;
 }
 :root{ 
     --principal:#89FCB3;
@@ -10,6 +11,23 @@
     --quinto:#FFFFF7;
 }
 
+.old-standard tt-regular {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .old-standard tt-bold {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .old-standard tt-regular-italic {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
 
 .logo_buscar{
     border:  solid black 2px;
