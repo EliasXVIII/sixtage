@@ -11,8 +11,15 @@
 }
 
 
-
-
+.logo_buscar{
+    border:  solid black 2px;
+}
+.nombretienda{
+    border: solid pink 2px;
+}
+.logo_fav_carro{
+    border: solid brown 2px;
+}
 
 
 
