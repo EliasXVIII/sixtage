@@ -2,4 +2,10 @@
     margin: 0 auto;
     box-sizing: border-box;
 }
-
+:root{ 
+    --principal:#89FCB3;
+    --secundario:#B1FCB3;
+    --tercero:#D8FCB3;
+    --cuarto:#EAFCCF;
+    --quinto:#FFFFF7;
+}
