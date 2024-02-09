@@ -1,6 +1,6 @@
 *{
     margin: 0 auto;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
 :root{ 
     --principal:#89FCB3;
@@ -302,8 +302,46 @@
 
 /* 
 ********************Elias*********************** */
+nav{
+   display: flex;
+    height: 5rem;
+    background-color: var(--cuarto);
+    
+
+}
+
+.principalNavE{
+    display: flex;
+    border: solid blue;
+    width: 100%;
+  
+    
+}
+
+.secundarioNavE{
+    display: flex;
+width: 20%;
+    border: solid yellow;
+    justify-content: end;
+}
+
+.menuNavE{
+    display: flex;
+    align-items: center;
+   /*  border: solid green; */
+    height: 5rem;
+   
+}
+
+.idiomasNavE{
+   /*  border: solid red; */
+    height: 5rem;
+    display: flex;
+    align-items: center;
 
 
+    
+}
 
 
 
