@@ -564,7 +564,7 @@ nav{
 
 
 main{
-    min-height: 20rem;
+    min-height: 25rem;
 }
 
 
@@ -838,9 +838,49 @@ main{
 /* ********************ELIAS Quienes Somos************************* */
 
 
+.fotoPortadaE img{
 
+    width: 100%;
+}
 
+.quienesSomosParteBajaE{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+    height: 30rem;
 
+}
+
+.quienesSomosFotoE{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.quienesSomosFotoE{
+    margin-top: -0.5rem;
+
+}
+.quienesSomosFotoE img{
+    width: 30rem;
+    margin: 0 10rem;
+
+}
+.quienesSomosTextoE{
+    text-align: center;
+   
+    height: 20rem;
+    width: 50%;
+    padding: 0 1rem;
+}
+.quienesSomosTextoE p{
+   
+    margin-top: -0.5rem;
+}
 
 
 
@@ -2082,6 +2122,23 @@ main{
        
     }
 
+    /* **********ELIAS TABLET QUIENES SOMOS********* */
+    .quienesSomosParteBajaE{
+        min-height: 50rem;
+        flex-direction: column;
+        padding-bottom: 7rem;
+        justify-content: space-between;
+        padding-bottom: 2.5rem;
+       
+    }
+
+    .quienesSomosTextoE{
+    
+        width: 80%;
+        
+    }
+     .quienesSomosTextoE p{ margin-top: -5rem;
+     }
     
 }
 
@@ -2486,6 +2543,16 @@ main{
 
 
 
+   /*  **********ELIAS QUIENES SOMOS********** */
+
+   .quienesSomosTextoE{
+        
+    width: 100%;
+    }
+
+    .quienesSomosParteBajaE{
+        padding-bottom: 2rem;
+    }
 
     
 
@@ -2496,4 +2563,136 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .footerCenJ{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+
+    }
+
+    .imagenMobilE{
+        margin-left: 25%;
+    }
+
+    .idiomasNavTabletE{
+        margin-right: 110%;
+    }
+    
+    .quienesSomosFotoE img{
+    
+        height: 15rem;
+        margin-top: 2rem;
+        /* display: none; */
+
+    }
+
+    .quienesSomosTextoE p{
+        margin-top: -8rem;
+      
+    }
+    
+}
 
