@@ -27,8 +27,9 @@
     font-family: "Old Standard TT", serif;
     font-weight: 400;
     font-style: italic;
-  }
-
+        /*   border:  solid pink 2px; */
+         
+      } 
   /*input+lupa*/
  .buscar {  width: 12rem; 
     bottom: 4rem;
@@ -44,10 +45,10 @@
   right: 1rem;
 }
 
-.logo_buscar {
-  /*   border:  solid pink 2px; */
+/* .logo_buscar {
+  /*   border:  solid pink 2px; }*/
    
-} 
+
 
 .logo img{
 /*  border: solid brown 2px; */
