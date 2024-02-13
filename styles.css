@@ -48,13 +48,6 @@
 } 
 
 
-button{
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 0 5px 0 5px;
-}
-
-
 .nombretienda{
     border: solid pink 2px;
     
@@ -84,22 +77,6 @@ header{ border: solid green;
 
 
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-
-
-
-
-
-
-ogo+iconos/logo sexta
-
-100px
 
 
 
@@ -117,21 +94,6 @@ ogo+iconos/logo sexta
 
 
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-100px
 
 
 
@@ -140,9 +102,27 @@ padding-top: 15px;
 
 
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1453,6 +1433,14 @@ main{
     margin: 3%;
     display: flex;
 
+}
+
+.contactoLogoBotonA {
+    display: flex;
+}
+
+.contactoImagenA {
+    width: 30px;
 }
 
 
