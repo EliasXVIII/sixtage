@@ -668,7 +668,116 @@ main{
 /* ****************RAYAN Inicio*********************
  */
 
+ /* Parte de Rayan */
+ .mainIndex_R{ width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
 
+   }
+
+.parte_1_R{ display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.miVideo_R{ justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200%;
+  height:200%;
+  z-index: 0; 
+  margin-top: 0;
+  position: relative;
+  background-size:auto;
+/*border: 0.3rem solid red;*/
+  width: 100%;
+/*  position: fixed;  */
+
+}
+.buttons_R { position: absolute;
+   bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
+/* left: 50%;*/
+ /*transform: translateX(-50%);*/
+ /*opacity: 0.5;*/
+   display: flex;
+   width: 50%;
+   height:5%;
+   justify-content: center;
+   align-items: center;
+/*border: 0.5rem solid green;*/
+}
+
+.buttons_R button { background-color: transparent;
+         font-size: 2rem;
+         color: white;
+         box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+         border:0.1rem solid white;
+         border-radius: 30%;
+         border-radius: 60px;
+         padding: 1rem;
+         font-style: bold;
+       }      
+/* border-radius: 30%;
+margin: 0 100px;
+border-radius: 60px;
+margin: 20px 16px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+padding: 15px 32px;
+width: 100%;
+height: 100%;
+font-size: 4rem;
+border: 0.3rem solid red;*/
+
+
+/* Parte de Jonathan Ibáñez */
+
+.parte_2_JI{ width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(/img/_MG_4069.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 50rem;
+  top: 0;
+}
+
+.titulo_JI{ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ color: white;
+ font-size: 2rem;
+ margin-top: 2rem;
+ margin-bottom: 8rem;          
+}
+
+.contenedorCuentaAtras_JI{ width: 60%;
+                justify-content: center;
+                align-items: center;
+                display:flex;
+                margin-bottom: 3rem;
+              }
+
+
+.contenerPequeñoCa_JI{ width: 15%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: white;
+            margin: 2rem;
+            margin-bottom: 5rem;
+            font-size: 2rem;
+            border-radius: 5%;
+          }
+
+.contenerPequeñoCa_JI p { margin: 1rem;
+             }
 
 
 
