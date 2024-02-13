@@ -28,6 +28,7 @@
     font-weight: 400;
     font-style: italic;
   }
+
   /*input+lupa*/
  .buscar {
     position: relative;
@@ -48,11 +49,7 @@
 } 
 
 
-button{
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 0 5px 0 5px;
-}
+
 
 
 .nombretienda{
@@ -63,14 +60,15 @@ button{
     border: solid brown 2px;
     gap:20px;
     left: 100%;
+    
 }
 
 
 header{ border: solid green;
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between; */ 
     height: 5rem;
-    gap: 5rem;
+    gap: 30rem; 
    padding-top: 15px; 
    width: 100%;
 
@@ -78,20 +76,6 @@ header{ border: solid green;
 .logo_buscar{
     display: flex;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -2001,6 +1985,54 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+/* 
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
+
+
+
+
+
+
+
+
+
+
+ogo+iconos/logo sexta
+
+100px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+height: 5rem;
+gap: 5rem;
+
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
