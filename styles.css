@@ -28,6 +28,7 @@
     font-weight: 400;
     font-style: italic;
   }
+
   /*input+lupa*/
  .buscar {
     position: relative;
@@ -48,6 +49,12 @@
 } 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> ca231375e386f3d951bf9820a1d90efc81aa4d8e
 .nombretienda{
     border: solid pink 2px;
     
@@ -56,14 +63,15 @@
     border: solid brown 2px;
     gap:20px;
     left: 100%;
+    
 }
 
 
 header{ border: solid green;
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between; */ 
     height: 5rem;
-    gap: 5rem;
+    gap: 30rem; 
    padding-top: 15px; 
    width: 100%;
 
@@ -77,6 +85,7 @@ header{ border: solid green;
 
 
 
+<<<<<<< HEAD
 
 
 
@@ -140,6 +149,8 @@ header{ border: solid green;
 
 
 
+=======
+>>>>>>> ca231375e386f3d951bf9820a1d90efc81aa4d8e
 
 
 
@@ -2051,6 +2062,54 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+/* 
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
+
+
+
+
+
+
+
+
+
+
+ogo+iconos/logo sexta
+
+100px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+height: 5rem;
+gap: 5rem;
+
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
