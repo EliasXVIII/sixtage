@@ -1890,9 +1890,7 @@ main{
 .contenedorDeBotonesJ{
     display: flex;
     justify-content: center;
-   
-    width: 32rem;
-    
+    width: 37rem;
 }
 .iniciarJ{
     background-color: var(--tercero);
@@ -1900,6 +1898,8 @@ main{
     height: 3rem;
     font-size: 1.2rem;
     border-radius: 1rem;
+    border: none;
+    font-weight: 800;
 }
 .registrateJ{
     background-color: var(--tercero);
@@ -1907,7 +1907,8 @@ main{
     height: 3rem;
     font-size: 1.2rem;
     border-radius: 1rem;
-
+    border: none;
+    font-weight: 800;
 }
 
 
