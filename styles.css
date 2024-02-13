@@ -28,6 +28,7 @@
     font-weight: 400;
     font-style: italic;
   }
+
   /*input+lupa*/
  .buscar {
     position: relative;
@@ -48,13 +49,6 @@
 } 
 
 
-button{
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 0 5px 0 5px;
-}
-
-
 .nombretienda{
     border: solid pink 2px;
     
@@ -63,14 +57,15 @@ button{
     border: solid brown 2px;
     gap:20px;
     left: 100%;
+    
 }
 
 
 header{ border: solid green;
     display: flex;
-    justify-content: space-between; 
+    /* justify-content: space-between; */ 
     height: 5rem;
-    gap: 5rem;
+    gap: 30rem; 
    padding-top: 15px; 
    width: 100%;
 
@@ -84,22 +79,6 @@ header{ border: solid green;
 
 
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-
-
-
-
-
-
-ogo+iconos/logo sexta
-
-100px
 
 
 
@@ -117,21 +96,6 @@ ogo+iconos/logo sexta
 
 
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-100px
 
 
 
@@ -140,9 +104,27 @@ padding-top: 15px;
 
 
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1452,7 +1434,15 @@ main{
     background-color: #B1FCB3;
     margin: 3%;
     display: flex;
-    
+
+}
+
+.contactoLogoBotonA {
+    display: flex;
+}
+
+.contactoImagenA {
+    width: 30px;
 }
 
 
@@ -2063,6 +2053,54 @@ main{
 
 
 
+
+
+
+
+
+
+
+
+/* 
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
+
+
+
+
+
+
+
+
+
+
+ogo+iconos/logo sexta
+
+100px
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+height: 5rem;
+gap: 5rem;
+
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
