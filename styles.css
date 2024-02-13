@@ -1764,12 +1764,51 @@ main{
 
 
 
+/****Jesus POP UP de Login y Registrate*****/
 
-/* **********Jesus POP UP de Login y Registrate************* */
+.pageAccesoJ{
+    background-image: url(img/fondoVintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+.tituloAccesoJ{
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 4rem;
+    color: white;
+}
 
+.parradoAccesoJ{
+    text-align: center;
+    font-size: 2rem;
+    color: white    ;
+}
 
+.AccesoUsuarioJ{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    align-items: center;
+    margin-top: 2rem;
+}
 
+.usuarioJ{
+    height: 4rem;
+    width: 35rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+
+.botonesAccederJ{
+    background-color: var(--tercero);
+    width: 13rem;
+    height: 2rem;
+    font-size: 1.2rem;
+    text-align: center; 
+}
 
 
 
