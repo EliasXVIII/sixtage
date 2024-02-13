@@ -28,15 +28,55 @@
     font-weight: 400;
     font-style: italic;
   }
+  /*input+lupa*/
+ .buscar {
+    position: relative;
+    margin-top: 2.5rem;
+ }
+.buscar img {
+  margin-top: 20px;
+  width: 1rem;
+  position:absolute;
+  display: block;
+  bottom: .2rem;
+  right: 1rem;
+}
 
 .logo_buscar{
-    border:  solid black 2px;
+    border:  solid pink 2px;
+    
+} 
+
+
+button{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 0 5px 0 5px;
 }
+
+
 .nombretienda{
     border: solid pink 2px;
+    
 }
-.logo_fav_carro{
+.log_fav_carro{
     border: solid brown 2px;
+    gap:20px;
+    left: 100%;
+}
+
+
+header{ border: solid green;
+    display: flex;
+    justify-content: space-between; 
+    height: 5rem;
+    gap: 5rem;
+   padding-top: 15px; 
+   width: 100%;
+
+}
+.logo_buscar{
+    display: flex;
 }
 
 
@@ -44,6 +84,9 @@
 
 
 
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
@@ -54,7 +97,9 @@
 
 
 
+ogo+iconos/logo sexta
 
+100px
 
 
 
@@ -72,14 +117,21 @@
 
 
 
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
 
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
 
+100px
 
 
 
@@ -88,30 +140,9 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+height: 5rem;
+gap: 5rem;
+padding-top: 15px;
 
 
 
