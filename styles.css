@@ -1417,6 +1417,13 @@ main{
 /* 
 ******************Andres Contacto y Pop up correspondiente************* */
 
+.mainContactoBA {
+    background-color: #B1FCB3;
+    margin: 3%;
+    display: flex;
+    
+}
+
 
 
 

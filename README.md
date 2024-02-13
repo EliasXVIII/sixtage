@@ -44,7 +44,7 @@ Para ver este proyecto localmente, sigue estos pasos:
 El proyecto incluye características de diseño responsive mediante consultas de medios. Se definen diferentes diseños para varios tamaños de pantalla como tablet y móvil
 
 ## Autores
-Andres
+Andres Echeverry
 Lourdes
 Jesús
 Elías 
