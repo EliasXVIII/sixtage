@@ -30,12 +30,13 @@
   }
 
   /*input+lupa*/
- .buscar {
+ .buscar {  width: 12rem; 
+    bottom: 4rem;
     position: relative;
-    margin-top: 2.5rem;
+    /* margin-top:2rem; */
  }
 .buscar img {
-  margin-top: 20px;
+
   width: 1rem;
   position:absolute;
   display: block;
@@ -43,35 +44,61 @@
   right: 1rem;
 }
 
-.logo_buscar{
-    border:  solid pink 2px;
-    
+.logo_buscar {
+  /*   border:  solid pink 2px; */
+   
 } 
 
+.logo img{
+/*  border: solid brown 2px; */
+    width:100%;
+    height: 80%;
+}
 
-.nombretienda{
-    border: solid pink 2px;
-    
+
+.nombretienda img{
+    width: 100%;
+   /*  border: solid pink 2px; */
+    margin-top: 5rem;
+
+ 
 }
 .log_fav_carro{
-    border: solid brown 2px;
-    gap:20px;
-    left: 100%;
+    display: flex;
+  /*  border: solid brown 2px;  */ 
+    gap:1.5px;
+    align-items: center; 
     
+}
+.login img{
+    width: 1.5rem;
+    margin: .7rem;
+    cursor: pointer;
+}
+.favorito img{
+    width: 1.5rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+.carro img {
+    width: 1.5rem;
+    margin: .5rem;
+    cursor: pointer;
 }
 
 
-header{ border: solid green;
+.headerlou{ 
+    /* border: solid green; */
     display: flex;
-    /* justify-content: space-between; */ 
-    height: 5rem;
-    gap: 30rem; 
-   padding-top: 15px; 
+    justify-content: space-between; 
+    height: 100%;
+    gap: 20rem; 
    width: 100%;
 
 }
 .logo_buscar{
     display: flex;
+    align-items: flex-end;
 }
 
 
@@ -1430,20 +1457,35 @@ main{
 /* 
 ******************Andres Contacto y Pop up correspondiente************* */
 
-.mainContactoBA {
-    background-color: #B1FCB3;
-    margin: 3%;
-    display: flex;
 
+.mainContactoAA {
+    display: flex;
+    width: 100%;
 }
 
 .contactoLogoBotonA {
     display: flex;
+    
 }
 
-.contactoImagenA {
-    width: 30px;
+.mainContactoBA {
+    background-color: #B1FCB3;
+    margin: 3%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
 }
+
+.contactoImagenA img {
+    width: 100%;
+}
+
+.contactoTextoA {
+    background-color: #FFFFF7;
+    margin: 10%;
+}
+
 
 
 
@@ -1795,6 +1837,7 @@ main{
 /****Jesus POP UP de Login y Registrate*****/
 
 .pageAccesoJ{
+    
     background-image: url(img/fondoVintage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -1813,31 +1856,59 @@ main{
     color: white    ;
 }
 
-.AccesoUsuarioJ{
-    border: solid;
+.AccesoUsuarioJ, #usuario{
     display: flex;
     flex-direction: column;
     height: 20rem;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
 
-.usuarioJ{
+#usuario{
     height: 4rem;
     width: 35rem;
     margin: 1rem;
     border-radius: 1rem;
     border: none;
+    font-size: 2.3rem;
+    opacity: 0.7;
+    margin-top: 5rem;
+    padding-left: 1rem;
+    font-weight: 800;
 }
-
-.botonesAccederJ{
+#contraseña{
+    height: 4rem;
+    width: 35rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: none;
+    font-size: 2.3rem;
+    opacity: 0.7;
+    padding-left: 1rem;
+    font-weight: 800;
+}
+.contenedorDeBotonesJ{
+    display: flex;
+    justify-content: center;
+   
+    width: 32rem;
+    
+}
+.iniciarJ{
     background-color: var(--tercero);
-    width: 13rem;
-    height: 2rem;
+    width: 15rem;
+    height: 3rem;
     font-size: 1.2rem;
-    text-align: center; 
+    border-radius: 1rem;
 }
+.registrateJ{
+    background-color: var(--tercero);
+    width: 15rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    border-radius: 1rem;
 
+}
 
 
 
