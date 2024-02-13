@@ -49,9 +49,6 @@
 } 
 
 
-
-
-
 .nombretienda{
     border: solid pink 2px;
     
@@ -76,6 +73,69 @@ header{ border: solid green;
 .logo_buscar{
     display: flex;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1374,7 +1434,15 @@ main{
     background-color: #B1FCB3;
     margin: 3%;
     display: flex;
-    
+
+}
+
+.contactoLogoBotonA {
+    display: flex;
+}
+
+.contactoImagenA {
+    width: 30px;
 }
 
 
