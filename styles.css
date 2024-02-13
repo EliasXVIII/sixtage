@@ -1,6 +1,6 @@
 *{
     margin: 0 auto;
-    box-sizing: content-box;
+    box-sizing: border-box;
     font-family: "Old Standard TT", serif;
 }
 :root{ 
@@ -228,20 +228,1095 @@
 
 footer{
     background-color: var(--cuarto);
-    height: 10rem;
+    height: 15rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.numeroPaginaJ{
+.footerIzqJ{
+    width: 33%;
+}
+.footerCenJ{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.footerDerJ{
+    width: 33%;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoContactoJ{
+    display: flex;
     flex-direction: column;
-    margin: auto;
+    align-items: center;
+    padding-bottom: 0.5rem;
+   
 }
-.contenedorImagenRedeFooter{
-    margin: auto;
+
+.contenedorImagenRedeFooterJ{
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+
 }
-.copyright{
+
+.textoMetodoPagoJ{
+    display: flex;
+
+}
+
+/* .numeroPaginaJ{
+    flex-direction: column;
+    text-align: center;
+    margin-left: 0rem;
+    margin-left: 2rem;
+} */
+
+.copyrightJ{
+    display: flex;
+    align-items: center;
     background-color: var(--secundario);
+    height: 3rem;
     text-align: center;
 }
+
+.iconosMetodoPagoJ{
+    display: flex;
+    width: 16rem;
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+********************Elias*********************** */
+/* https://www.youtube.com/watch?v=wQx6fIkmJpM subrayado de boton */
+
+.abrirMenuE{
+    display: none;
+}
+
+.menuNavE .cerraMenuE{
+    display: none;
+}
+
+.imagenMobilE{
+    display: none;
+}
+
+nav{
+    display: flex;
+    height: 5rem;
+    background-color: var(--cuarto);
+   
+
+}
+
+
+
+.principalNavE{
+    display: flex;
+    /* border: solid blue; */
+    width: 100%;
+  
+    
+}
+
+.menuNavE{
+    display: flex;
+    align-items: center;
+   /*  border: solid green; */
+    height: 5rem;
+    gap: 0rem 3rem;
+    padding-left: 20%;
+}
+
+
+.menuNavE button{
+    border: none;
+    background-color: var(--cuarto);
+    font-size: 1rem;
+    display: inline-block;
+    position:relative;
+    cursor: pointer;
+}
+
+.menuNavE button::after{
+    content:'';
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: scaleX(0) ;
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+
+}
+.menuNavE button:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+.secundarioNavE{
+    display: flex;
+    width: 20%;
+    /* border: solid yellow; */
+    justify-content: end;
+}
+
+
+.idiomasNavE{
+   /*  border: solid red; */
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    
+}
+
+.idiomasNavE button{
+    border: none;
+    background-color: #EAFCCF;
+    font-size: 1rem;
+    display: inline-block;
+    position:relative;
+    cursor: pointer;
+
+}
+
+.idiomasNavTabletE{
+    display: none;
+
+}
+.idiomasNavTabletE button{
+    
+    border: none;
+    background-color: #EAFCCF;
+    font-size: 1rem;
+    display: inline-block;
+    position:relative;
+    cursor: pointer;
+}
+
+.idiomasNavE button::after{
+    content:'';
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform: scaleX(0) ;
+    transform-origin: bottom right;
+    transition: transform 0.6s ease-out;
+   
+
+}
+.idiomasNavE button:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+    min-height: 25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ****************RAYAN Inicio*********************
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ********************ELIAS Quienes Somos************************* */
+
+
+.fotoPortadaE img{
+
+    width: 100%;
+}
+
+.quienesSomosParteBajaE{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+   
+    height: 30rem;
+
+}
+
+.quienesSomosFotoE{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    
+}
+
+.quienesSomosFotoE{
+    margin-top: -0.5rem;
+
+}
+.quienesSomosFotoE img{
+    width: 30rem;
+    margin: 0 10rem;
+
+}
+.quienesSomosTextoE{
+    text-align: center;
+   
+    height: 20rem;
+    width: 50%;
+    padding: 0 1rem;
+}
+.quienesSomosTextoE p{
+   
+    margin-top: -0.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **********************Lourdes Rebajas y Productos***************** */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -340,45 +1415,730 @@ footer{
 
 
 /* 
-********************Elias*********************** */
-nav{
-   display: flex;
-    height: 5rem;
-    background-color: var(--cuarto);
-    
+******************Andres Contacto y Pop up correspondiente************* */
 
-}
 
-.principalNavE{
-    display: flex;
-    border: solid blue;
-    width: 100%;
-  
-    
-}
 
-.secundarioNavE{
-    display: flex;
-width: 20%;
-    border: solid yellow;
-    justify-content: end;
-}
 
-.menuNavE{
-    display: flex;
-    align-items: center;
-   /*  border: solid green; */
-    height: 5rem;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* **********Jesus POP UP de Login y Registrate************* */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* TABLET */
+@media screen and (max-width: 950px) {
    
-}
+    .menuNavE{
+        gap: 0.5rem;
+        
+    }
 
-.idiomasNavE{
-   /*  border: solid red; */
-    height: 5rem;
-    display: flex;
-    align-items: center;
+    .idiomasNavE{
+        display: none;
+        
+    }
 
+    .idiomasNavTabletE{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 0.5rem;
+       
+        
+    }
 
+    .idiomasNavTabletE button::after{
+        content:'';
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        transform: scaleX(0) ;
+        transform-origin: bottom right;
+        transition: transform 0.6s ease-out;
+        
+    
+    }
+    .idiomasNavTabletE button:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;}
+
+    .idiomasNavTabletE button{
+        width: 2rem;
+        border-radius: 0.5rem 0;
+    }
+
+    .iconosMetodoPagoJ{
+        justify-content: center;
+    }
+
+    .iconosMetodoPagoJ img{
+        height: 2.2rem;
+        margin: 0.1rem;
+    }
+
+    .contenedorImagenRedeFooterJ img{
+        height: 2.2rem;
+     
+    }
+
+    .footerIzqJ{
+        width: 40%;
+    }
+    .footerCenJ{
+        width: 20%;
+    }
+    .footerDerJ{
+        width: 40%;
+       
+    }
+
+    /* **********ELIAS TABLET QUIENES SOMOS********* */
+    .quienesSomosParteBajaE{
+        min-height: 50rem;
+        flex-direction: column;
+        padding-bottom: 7rem;
+        justify-content: space-between;
+        padding-bottom: 2.5rem;
+       
+    }
+
+    .quienesSomosTextoE{
+    
+        width: 80%;
+        
+    }
+     .quienesSomosTextoE p{ margin-top: -5rem;
+     }
     
 }
 
@@ -476,4 +2236,463 @@ width: 20%;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOVIL */
+@media screen and (max-width: 550px){
+  /*   
+        .principalNavE{
+        display: none;
+    } */
+    header{
+        display: none;
+    }
+
+    .menuNavE button{
+        background-color: var(--principal);
+    }
+    
+
+    
+    .menuNavE{
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        height: 15rem;
+        background-color: var(--principal);
+        padding: 2rem;
+        box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
+        border-radius: 0 0 1rem 0;
+    
+    }
+
+    .menuNavE.visible{
+        opacity: 1;
+        visibility: visible;
+    }
+
+
+    .abrirMenuE{
+        display: flex ;
+        position: absolute;
+        border: none;
+        background-color: var(--cuart);
+        font-size: 1rem;
+        display: inline-block;
+        cursor: pointer;
+        
+    }
+
+    .abrirMenuE::after{
+        content:'';
+        position: absolute;
+        cursor: pointer;
+        width: 100%;
+        height: 1px;
+        bottom: 0;
+        left: 0;
+        background-color: black;
+        transform: scaleX(0) ;
+        transform-origin: bottom right;
+        transition: transform 0.6s ease-out;
+    
+    }
+    .abrirMenuE:hover::after{
+        transform: scaleX(1);
+        transform-origin: bottom left;
+    }
+
+    .principalNavE {
+        align-items: center;
+        padding-left: 1rem;
+
+    }
+
+    .menuNavE .cerraMenuE{
+        display: block;
+    }
+
+    .imagenMobilE{
+        display: flex;
+        padding-right: 25%; 
+
+    }
+
+    footer{
+        height: 10rem;
+    }
+    .infoContactoJ{
+        width: 10rem;
+    }
+    .contenedorImagenRedeFooterJ{
+        width: 10rem;
+
+    }
+
+    .contenedorImagenRedeFooterJ img{
+        height: 2rem;
+        
+    }
+
+    .footerCenJ img{
+        height: 6rem;
+    }
+
+    .textoMetodoPagoJ{
+        width: 10rem;
+    }
+    .iconosMetodoPagoJ{
+        width: 10rem;
+        justify-content: center;
+    
+    }
+
+    .iconosMetodoPagoJ img{
+        margin: 0;
+
+    }
+
+
+
+   /*  **********ELIAS QUIENES SOMOS********** */
+
+   .quienesSomosTextoE{
+        
+    width: 100%;
+    }
+
+    .quienesSomosParteBajaE{
+        padding-bottom: 2rem;
+    }
+
+    
+
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 400px){
+    .footerCenJ{
+        display: none;
+    }
+
+    footer{
+        flex-direction: column;
+
+    }
+
+    .imagenMobilE{
+        margin-left: 25%;
+    }
+
+    .idiomasNavTabletE{
+        margin-right: 110%;
+    }
+    
+    .quienesSomosFotoE img{
+    
+        height: 15rem;
+        margin-top: 2rem;
+        /* display: none; */
+
+    }
+
+    .quienesSomosTextoE p{
+        margin-top: -8rem;
+      
+    }
+    
+}
 
