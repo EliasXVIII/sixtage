@@ -1577,11 +1577,6 @@ main{
 ******************Andres Contacto y Pop up correspondiente************* */
 
 
-.mainContactoAA {
-    display: flex;
-    width: 100%;
-}
-
 .contactoLogoBotonA {
     display: flex;
     
@@ -1592,18 +1587,71 @@ main{
     margin: 3%;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* height: 55rem; */
 
+}
+
+.contactoLogoA img {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.contactoLogoA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactoImagenA img {
     width: 100%;
 }
 
-.contactoTextoA {
+.contactoTxtBtnA {
     background-color: #FFFFF7;
     margin: 10%;
+    
 }
+
+.contactoTxtBtnA {
+    text-align: center;
+    align-items: center;
+}
+
+.contactoBotonA {
+    margin: 10%;
+}
+
+.contactoTxtBtnA p {
+    margin: 10%;
+    font-size: x-large;
+}
+
+
+.contactoIzquierdaA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contactoDerechaA {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.contactoImagenA img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 
 
 
@@ -1960,18 +2008,19 @@ main{
     background-image: url(img/fondoVintage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 48rem;
 }
 
 .tituloAccesoJ{
     text-align: center;
-    font-size: 3rem;
-    margin-top: 4rem;
+    padding-top: 5rem;
+    font-size: 4rem;
     color: white;
 }
 
 .parradoAccesoJ{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white    ;
 }
 
@@ -1980,27 +2029,28 @@ main{
     flex-direction: column;
     height: 20rem;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 #usuario{
     height: 4rem;
     width: 35rem;
+    border: solid black;
     margin: 1rem;
     border-radius: 1rem;
-    border: none;
+    
     font-size: 2.3rem;
     opacity: 0.7;
-    margin-top: 5rem;
+    margin-top: 4rem;
     padding-left: 1rem;
     font-weight: 800;
 }
 #contraseña{
     height: 4rem;
+    border: solid black;
     width: 35rem;
     margin: 1rem;
     border-radius: 1rem;
-    border: none;
     font-size: 2.3rem;
     opacity: 0.7;
     padding-left: 1rem;
@@ -2012,23 +2062,161 @@ main{
     width: 40rem;
 }
 .iniciarJ{
-    background-color: var(--tercero);
-    width: 15rem;
-    height: 3rem;
-    font-size: 1.2rem;
-    border-radius: 1.5rem;
-    border: none;
-    font-weight: 800;
+        color: black !important;
+        font-size: 1.2rem;
+        height: 3rem;
+        font-weight: 800;
+        width: 15rem;
+        border-radius: 1.5rem;
+        background: var(--tercero);
+        border: 2px solid;
+        border-color: black;
+        transition: all 0.5s ease;
+        position: relative;
 }
+.iniciarJ:hover {
+    background: black;
+    color: white !important;
+}
+
 .registrateJ{
-    background-color: var(--tercero);
-    width: 15rem;
-    height: 3rem;
+    color: black !important;
     font-size: 1.2rem;
-    border-radius: 1.5rem;
-    border: none;
+    height: 3rem;
     font-weight: 800;
+    width: 15rem;
+    border-radius: 1.5rem;
+    background: var(--tercero);
+    border: 2px solid;
+    border-color: black;
+    transition: all 0.5s ease;
+    position: relative;
 }
+.registrateJ:hover {
+background: black;
+color: white !important;
+}
+
+.cajaDePregunta{
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    width: 60rem;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+/* ************Acceso2************** */
+
+.pageAcceso2J{
+    background-image: url(img/fondoVintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tituloPageAcceso2{
+    width: 40rem;
+    margin-top: 4rem;
+}
+
+.tituloAcceso2J{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#registerJ{
+    margin-top: 2rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mailJ{
+    height: 4rem;
+    width: 42rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#nameJ{
+    height: 4rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#lastnameJ{
+    height: 4rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#telefonoJ{
+    height: 4rem;
+    width: 42rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#passwordJ{
+    height: 4rem;
+    width: 42rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+
+.politicaPage2J{
+    display: flex;
+    font-size: 1.5rem;
+    width: 60rem;
+    color: white;
+    font-weight: 700;
+    padding-right: 22rem;
+}
+.registrarPage2J{
+    margin-top: 1rem;
+    align-items: center;
+    color: black !important;
+    font-size: 1.5rem;
+    height: 3rem;
+    font-weight: 800;
+    width: 15rem;
+    border-radius: 1.5rem;
+    background: var(--tercero);
+    border: 2px solid;
+    border-color: black;
+    transition: all 0.5s ease;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 65rem;
+}
+
+.registrarPage2J:hover {
+    background: black;
+    color: white !important;
+    }
 
 
 
