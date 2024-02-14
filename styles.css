@@ -58,9 +58,10 @@
 
 
 .nombretienda img{
-    width: 100%;
-   /*  border: solid pink 2px; */
-    margin-top: 5rem;
+    width: 110%;
+    /*  border: solid pink 2px; */
+    padding-top: 40px;
+    
 
  
 }
@@ -93,7 +94,7 @@
     display: flex;
     justify-content: space-between; 
     height: 100%;
-    gap: 20rem; 
+    gap: 10rem; 
    width: 100%;
 
 }
