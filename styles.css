@@ -670,20 +670,23 @@ main{
  */
 
  /* Parte de Rayan */
+
+ /* Parte del main de la parte de inicio */
  .mainIndex_R{ width: 100%;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     display: flex;
-
    }
 
+/* primera parte (parte superior) de inicio */
 .parte_1_R{ display: flex;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
+/* video de la parte de incio */
 .miVideo_R{ justify-content: center;
   align-items: center;
   text-align: center;
@@ -696,8 +699,8 @@ main{
 /*border: 0.3rem solid red;*/
   width: 100%;
 /*  position: fixed;  */
-
 }
+/* div donde se ubican los botones de encima del video */
 .buttons_R { position: absolute;
    bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
 /* left: 50%;*/
@@ -710,7 +713,7 @@ main{
    align-items: center;
 /*border: 0.5rem solid green;*/
 }
-
+/* Botones por individual */
 .buttons_R button { background-color: transparent;
          font-size: 2rem;
          color: white;
@@ -735,6 +738,7 @@ border: 0.3rem solid red;*/
 
 /* Parte de Jonathan Ibáñez */
 
+/* segunda parte (parte inferior) de inicio */
 .parte_2_JI{ width: 100%;
   display: flex;
   align-items: center;
@@ -746,7 +750,7 @@ border: 0.3rem solid red;*/
   height: 50rem;
   top: 0;
 }
-
+ /* Titulo de encima del a cuenta atras */
 .titulo_JI{ display: flex;
  flex-direction: column;
  justify-content: center;
@@ -756,7 +760,7 @@ border: 0.3rem solid red;*/
  margin-top: 2rem;
  margin-bottom: 8rem;          
 }
-
+/* Contenedor de la cuenta atras para que llegue la primavera */
 .contenedorCuentaAtras_JI{ width: 60%;
                 justify-content: center;
                 align-items: center;
@@ -764,7 +768,7 @@ border: 0.3rem solid red;*/
                 margin-bottom: 3rem;
               }
 
-
+/* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
 .contenerPequeñoCa_JI{ width: 15%;
             display: flex;
             justify-content: center;
@@ -776,7 +780,7 @@ border: 0.3rem solid red;*/
             font-size: 2rem;
             border-radius: 5%;
           }
-
+/* las palabras de día, hora, minutos y segundo */
 .contenerPequeñoCa_JI p { margin: 1rem;
              }
 
