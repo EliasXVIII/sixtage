@@ -671,115 +671,124 @@ main{
  */
 
  /* Parte de Rayan */
+
+ /* Parte del main de la parte de inicio */
  .mainIndex_R{ width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-
-   }
-
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               display: flex;
+             }
+       
+/* primera parte (parte superior) de inicio */
 .parte_1_R{ display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+         }
 
+/* video de la parte de incio */
 .miVideo_R{ justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 200%;
-  height:200%;
-  z-index: 0; 
-  margin-top: 0;
-  position: relative;
-  background-size:auto;
-/*border: 0.3rem solid red;*/
-  width: 100%;
-/*  position: fixed;  */
+            align-items: center;
+            text-align: center;
+            width: 200%;
+            height:200%;
+            z-index: 0; 
+            margin-top: 0;
+            position: relative;
+            background-size:auto;
+          /*border: 0.3rem solid red;*/
+            width: 100%;
+        /*  position: fixed;  */
+          }
 
-}
+/* div donde se ubican los botones de encima del video */
 .buttons_R { position: absolute;
-   bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
-/* left: 50%;*/
- /*transform: translateX(-50%);*/
- /*opacity: 0.5;*/
-   display: flex;
-   width: 50%;
-   height:5%;
-   justify-content: center;
-   align-items: center;
+             bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
+          /* left: 50%;*/
+           /*transform: translateX(-50%);*/
+           /*opacity: 0.5;*/
+             display: flex;
+             width: 50%;
+             height:5%;
+             justify-content: center;
+             align-items: center;
 /*border: 0.5rem solid green;*/
-}
+           }
 
+/* Botones por individual */
 .buttons_R button { background-color: transparent;
-         font-size: 2rem;
-         color: white;
-         box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
-         border:0.1rem solid white;
-         border-radius: 30%;
-         border-radius: 60px;
-         padding: 1rem;
-         font-style: bold;
-       }      
-/* border-radius: 30%;
-margin: 0 100px;
-border-radius: 60px;
-margin: 20px 16px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-padding: 15px 32px;
-width: 100%;
-height: 100%;
-font-size: 4rem;
-border: 0.3rem solid red;*/
+                    font-size: 2rem;
+                    color: white;
+                    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+                    border:0.1rem solid white;
+                    border-radius: 30%;
+                    border-radius: 60px;
+                    padding: 1rem;
+                    font-style: bold;
+                  }      
+                 /* border-radius: 30%;
+                    margin: 0 100px;
+                    border-radius: 60px;
+                    margin: 20px 16px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    padding: 15px 32px;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 4rem;
+                    border: 0.3rem solid red;*/
 
 
 /* Parte de Jonathan Ibáñez */
 
+/* segunda parte (parte inferior) de inicio */
 .parte_2_JI{ width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url(/img/_MG_4069.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  height: 50rem;
-  top: 0;
-}
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             background-image: url(/img/_MG_4069.jpg);
+             background-size:cover;
+             background-repeat: no-repeat;
+             height: 50rem;
+             top: 0;
+           }
 
+ /* Titulo de encima del a cuenta atras */
 .titulo_JI{ display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- color: white;
- font-size: 2rem;
- margin-top: 2rem;
- margin-bottom: 8rem;          
-}
-
-.contenedorCuentaAtras_JI{ width: 60%;
-                justify-content: center;
-                align-items: center;
-                display:flex;
-                margin-bottom: 3rem;
-              }
-
-
-.contenerPequeñoCa_JI{ width: 15%;
-            display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
-            flex-direction: column;
-            background-color: white;
-            margin: 2rem;
-            margin-bottom: 5rem;
+            color: white;
             font-size: 2rem;
-            border-radius: 5%;
+            margin-top: 2rem;
+            margin-bottom: 8rem;          
           }
 
+/* Contenedor de la cuenta atras para que llegue la primavera */
+.contenedorCuentaAtras_JI{ width: 60%;
+                           justify-content: center;
+                           align-items: center;
+                           display:flex;
+                           margin-bottom: 3rem;
+                         }
+
+/* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
+.contenerPequeñoCa_JI{ width: 15%;
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       flex-direction: column;
+                       background-color: white;
+                       margin: 2rem;
+                       margin-bottom: 5rem;
+                       font-size: 1.5rem;
+                       border-radius: 5%;
+                     }
+
+/* las palabras de día, hora, minutos y segundo */
 .contenerPequeñoCa_JI p { margin: 1rem;
-             }
+                        }
 
 
 
@@ -1569,11 +1578,6 @@ border: 0.3rem solid red;*/
 ******************Andres Contacto y Pop up correspondiente************* */
 
 
-.mainContactoAA {
-    display: flex;
-    width: 100%;
-}
-
 .contactoLogoBotonA {
     display: flex;
     
@@ -1584,18 +1588,71 @@ border: 0.3rem solid red;*/
     margin: 3%;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* height: 55rem; */
 
+}
+
+.contactoLogoA img {
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+.contactoLogoA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contactoImagenA img {
     width: 100%;
 }
 
-.contactoTextoA {
+.contactoTxtBtnA {
     background-color: #FFFFF7;
     margin: 10%;
+    
 }
+
+.contactoTxtBtnA {
+    text-align: center;
+    align-items: center;
+}
+
+.contactoBotonA {
+    margin: 10%;
+}
+
+.contactoTxtBtnA p {
+    margin: 10%;
+    font-size: x-large;
+}
+
+
+.contactoIzquierdaA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contactoDerechaA {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.contactoImagenA img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
 
 
 
@@ -1952,18 +2009,19 @@ border: 0.3rem solid red;*/
     background-image: url(img/fondoVintage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 48rem;
 }
 
 .tituloAccesoJ{
     text-align: center;
-    font-size: 3rem;
-    margin-top: 4rem;
+    padding-top: 5rem;
+    font-size: 4rem;
     color: white;
 }
 
 .parradoAccesoJ{
     text-align: center;
-    font-size: 2rem;
+    font-size: 3rem;
     color: white    ;
 }
 
@@ -1972,27 +2030,28 @@ border: 0.3rem solid red;*/
     flex-direction: column;
     height: 20rem;
     align-items: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
 }
 
 #usuario{
     height: 4rem;
     width: 35rem;
+    border: solid black;
     margin: 1rem;
     border-radius: 1rem;
-    border: none;
+    
     font-size: 2.3rem;
     opacity: 0.7;
-    margin-top: 5rem;
+    margin-top: 4rem;
     padding-left: 1rem;
     font-weight: 800;
 }
 #contraseña{
     height: 4rem;
+    border: solid black;
     width: 35rem;
     margin: 1rem;
     border-radius: 1rem;
-    border: none;
     font-size: 2.3rem;
     opacity: 0.7;
     padding-left: 1rem;
@@ -2001,26 +2060,164 @@ border: 0.3rem solid red;*/
 .contenedorDeBotonesJ{
     display: flex;
     justify-content: center;
-    width: 37rem;
+    width: 40rem;
 }
 .iniciarJ{
-    background-color: var(--tercero);
-    width: 15rem;
-    height: 3rem;
-    font-size: 1.2rem;
-    border-radius: 1rem;
-    border: none;
-    font-weight: 800;
+        color: black !important;
+        font-size: 1.2rem;
+        height: 3rem;
+        font-weight: 800;
+        width: 15rem;
+        border-radius: 1.5rem;
+        background: var(--tercero);
+        border: 2px solid;
+        border-color: black;
+        transition: all 0.5s ease;
+        position: relative;
 }
+.iniciarJ:hover {
+    background: black;
+    color: white !important;
+}
+
 .registrateJ{
-    background-color: var(--tercero);
-    width: 15rem;
-    height: 3rem;
+    color: black !important;
     font-size: 1.2rem;
-    border-radius: 1rem;
-    border: none;
+    height: 3rem;
     font-weight: 800;
+    width: 15rem;
+    border-radius: 1.5rem;
+    background: var(--tercero);
+    border: 2px solid;
+    border-color: black;
+    transition: all 0.5s ease;
+    position: relative;
 }
+.registrateJ:hover {
+background: black;
+color: white !important;
+}
+
+.cajaDePregunta{
+    display: flex;
+    font-size: 1.5rem;
+    margin-top: 4rem;
+    width: 60rem;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+/* ************Acceso2************** */
+
+.pageAcceso2J{
+    background-image: url(img/fondoVintage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.tituloPageAcceso2{
+    width: 40rem;
+    margin-top: 4rem;
+}
+
+.tituloAcceso2J{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+#registerJ{
+    margin-top: 2rem;
+    height: 28rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mailJ{
+    height: 4rem;
+    width: 42rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#nameJ{
+    height: 4rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#lastnameJ{
+    height: 4rem;
+    width: 20rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#telefonoJ{
+    height: 4rem;
+    width: 42rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+#passwordJ{
+    height: 4rem;
+    width: 42rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+}
+
+.politicaPage2J{
+    display: flex;
+    font-size: 1.5rem;
+    width: 60rem;
+    color: white;
+    font-weight: 700;
+    padding-right: 22rem;
+}
+.registrarPage2J{
+    margin-top: 1rem;
+    align-items: center;
+    color: black !important;
+    font-size: 1.5rem;
+    height: 3rem;
+    font-weight: 800;
+    width: 15rem;
+    border-radius: 1.5rem;
+    background: var(--tercero);
+    border: 2px solid;
+    border-color: black;
+    transition: all 0.5s ease;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 65rem;
+}
+
+.registrarPage2J:hover {
+    background: black;
+    color: white !important;
+    }
 
 
 
@@ -2289,7 +2486,59 @@ padding-top: 15px;
 
 
 
+/* Página de descripción del producto-----Jonathan Ibáñez------ */
 
+.MainDescripcionProducto_JI{ display: flex;
+                             width: 100%;
+                             flex-direction: column;
+                             justify-content: center;
+                             align-items: center;
+                           }
+
+.tituloDescripcion_JI{ display: flex;
+                       width: 100%;
+                       justify-content:center;
+                       align-items: center;
+                     }
+
+.contenedorDescripciónProducto_JI{ background-color: #89FCB3;
+                                   width: 80%;
+                                   height: 100%;
+                                   border: black;
+}
+
+.politica_empresa_JI{display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     width: 80%;
+                     flex-direction: column;
+                    
+                    }
+.politicaEntrega_JI{/*display: flex;*/
+                    width: 100%;
+                    justify-content: start;
+                    align-items: start;
+                    flex-direction: column;
+                    text-align: start;
+                    left: 0;
+                    margin-top: 1rem;
+                   }       
+.politicaDevoluciones_JI{/*display: flex;*/
+                           width: 100%;
+                           justify-content: start;
+                           align-items: start;
+                           flex-direction: column;
+                           text-align: start;
+                           left: 0;
+                           margin-top: 1rem;
+                           margin-bottom: 2rem;
+                        }
+
+.metodoDePago_JI{display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                }
 
 
 
@@ -2438,6 +2687,28 @@ padding-top: 15px;
      .quienesSomosTextoE p{ margin-top: -5rem;
      }
     
+/* Jonathan y Rayan Inicio parte tablet */
+
+
+/* Parte superior (parte del video con botones) */
+.buttons_R{ width: 30%;
+            align-items: start;
+            bottom:inherit;
+            align-items:none;
+          }
+
+
+/* Parte inferior (parte de la cuenta de atras) */
+.contenedorCuentaAtras_JI{grid-row:auto;
+
+}
+
+
+
+
+
+
+
 }
 
 
