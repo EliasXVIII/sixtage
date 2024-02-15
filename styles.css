@@ -1601,10 +1601,12 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 70%;
+    margin: 4%;
 }
 
-.contactoImagenA img {
-    width: 100%;
+.contactoH2A {
+    font-size: x-large;
 }
 
 .contactoTxtBtnA {
@@ -1614,6 +1616,7 @@ main{
 }
 
 .contactoTxtBtnA {
+    width: 60%;
     text-align: center;
     align-items: center;
 }
@@ -1640,13 +1643,62 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    width: 100%;
     
 }
 
-.contactoImagenA img {
-    width: 100%;
-    height: 100%;
+.botonPruebaGratisA {
+    margin-bottom: 25%;
 }
+
+
+.contactoImagenA img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+/* ------------Pop Up Andres---------- */
+
+.popupMainA {
+    display: flex;
+    
+}
+
+.popupIzquierdaA {
+    background-color: #D9D9D9;
+}
+
+.tituloLogoA {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.botonSuscribeteA {
+    width: 80%;
+}
+
+.botonNoGraciasA {
+    width: 80%;
+}
+
+.segundaMidadA {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
