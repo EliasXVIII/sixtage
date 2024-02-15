@@ -25,7 +25,7 @@
         <div class="nombretienda"><img src="logo+iconos/SIXTAGE.svg" alt=""></div>
     
        <div class="log_fav_carro">
-         <div class="login"><img src="logo+iconos/Vector.svg" alt=""></div>
+         <div class="login"><a href="acceso.html"><img src="logo+iconos/Vector.svg" alt=""></a></div>
          <div class="favorito"><img src="logo+iconos/heart.svg" alt=""></div>
          <div class="carro"><img src="logo+iconos/carrocompra.svg" alt=""></div>
         
@@ -84,35 +84,35 @@
 
 <div class="tituloPageAcceso2">
 
-    <h1 class="tituloAcceso2J">Inicie sesión o regístrese con su dirección de correo electrónico</h1>
+    <h1 class="tituloAcceso2J">Ingrese sus datos para iniciar sesión</h1>
 
 </div>
+<div class="formulario2J">
+    
+    <form id="registroFormJ">
 
-<form id="registerJ">
-
-    <input type="text" id="mailJ" placeholder="Correoelectronico@gmail.com">
+    <input type="text" id="mailJ" required placeholder="Correoelectronico@gmail.com">
 
     <div class="columnaFormulario2">
 
-        <input type="text" id="nameJ" placeholder="Nombre">
+        <input type="text" id="nameJ" required placeholder="Nombre">
 
-        <input type="text" id="lastnameJ" placeholder="Apellido">
+        <input type="text" id="lastnameJ" required placeholder="Apellido">
 
     </div>
 
-    <input type="text" id="telefonoJ" placeholder="Numero Telefonico">
+    <input type="text" id="telefonoJ" required placeholder="Numero Telefonico">
 
-    <input type="password" id="passwordJ" placeholder="Crear Contraseña">
+    <input type="password" id="passwordJ" required placeholder="Crear Contraseña">
 
- </form>
-
- <div class="politicaPage2J">
-
- <label><input type="checkbox" id="checkboxPage2J"/> Acepto la política de privacidad</label>
+    <input class="btnIngresar" type="submit" value="ingresar">
 
 </div>
 
-<button class="registrarPage2J">Registrar</button>
+    <div class="politicaPage2J">
+        <label><input type="checkbox" required id="checkboxPage2J"/> Acepto la política de privacidad</label>  
+    </div>
+</form>
 </main> 
 
 <footer>
@@ -157,6 +157,6 @@
     
     </div>
      
-    
+    <script src="jesus.js"></script>
 </body>
 </html>

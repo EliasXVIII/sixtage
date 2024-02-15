@@ -1971,12 +1971,13 @@ border: 0.3rem solid red;*/
     color: white    ;
 }
 
-.AccesoUsuarioJ, #usuario{
+.AccesoUsuarioJ, #mailJ #password{
     display: flex;
     flex-direction: column;
     height: 20rem;
     align-items: center;
     margin-top: 1rem;
+    
 }
 
 #usuario{
@@ -2070,10 +2071,14 @@ color: white !important;
 .tituloAcceso2J{
     color: white;
     text-align: center;
-    font-size: 3rem;
+    font-size: 4rem;
 }
 
-#registerJ{
+.formulario2J{
+    width: 44.7rem;
+}
+
+#registroFormJ{
     margin-top: 2rem;
     height: 28rem;
     display: flex;
@@ -2135,10 +2140,12 @@ color: white !important;
 .politicaPage2J{
     display: flex;
     font-size: 1.5rem;
-    width: 60rem;
+    width: 44.9rem;
     color: white;
     font-weight: 700;
-    padding-right: 22rem;
+    padding-right: 19rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
 }
 .registrarPage2J{
     margin-top: 1rem;
@@ -2164,6 +2171,20 @@ color: white !important;
     background: black;
     color: white !important;
     }
+.btnIngresar{
+    width: 12rem;
+    height: 2.8rem;
+    background-color: var(--secundario);
+    font-size: 1.8rem;
+    border: solid black;
+    border-radius: 1.2rem;
+    margin-left: 31rem;
+    margin-top: 2rem;
+}
+.btnIngresar:hover{
+    background-color: white;
+}
+
 
 
 

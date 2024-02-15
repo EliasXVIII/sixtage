@@ -26,7 +26,7 @@
         <div class="nombretienda"><img src="logo+iconos/SIXTAGE.svg" alt=""></div>
 
         <div class="log_fav_carro">
-            <div class="login"><img src="logo+iconos/Vector.svg" alt=""></div>
+            <div class="login"><a href="acceso.html"><img src="logo+iconos/Vector.svg" alt=""></a></div>
             <div class="favorito"><img src="logo+iconos/heart.svg" alt=""></div>
             <div class="carro"><img src="logo+iconos/carrocompra.svg" alt=""></div>
 
@@ -34,132 +34,126 @@
 
     </header>
 
-        <nav>
+    <nav>
 
-            <div class="principalNavE">
+        <div class="principalNavE">
 
-                <button class="abrirMenuE" id="abrir">Abrir</button>
+            <button class="abrirMenuE" id="abrir">Abrir</button>
 
-                <div class="menuNavE" id="nav">
+            <div class="menuNavE" id="nav">
 
-                    <a href="/index.html"><button>Inicio</button></a>
-                    <a href="/quienesSomos.html"><button>Conócenos</button></a>
-                    <a href="/rebajas.html"><button>Rebajas</button></a>
-                    <a href="/productos.html"><button>Productos</button></a>
-                    <a href="/contacto.html"><button>Contacto</button></a>
-                    <button class="cerraMenuE" id="cerrar">Cerrar</button>
-
-                </div>
-            </div>
-
-            <div class="imagenMobilE"><img src="/logo+iconos/logo-sextage.svg" alt=""></div>
-
-            <div class="secundarioNavE">
-
-                <div class="idiomasNavE">
-                    <a href=""><button>EH /</button></a>
-                    <a href=""><button>ES /</button></a>
-                    <a href=""><button>EU &nbsp</button></a>
-                </div>
-                <div class="idiomasNavTabletE">
-                    <a href=""><button>EH </button></a>
-                    <a href=""><button>ES </button></a>
-                    <a href=""><button>EU </button></a>
-                </div>
-            </div>
-
-            <script src="indexHambuergues.js"></script>
-
-
-        </nav>
-
-
-
-        <main class="pageAccesoJ">
-
-
-            <h1 class="tituloAccesoJ">¡HOLA!</h1>
-            <p class="parradoAccesoJ">Bienvenido a sixtage</p>
-
-            <div class="AccesoUsuarioJ">
-
-                <form id="logingJ">
-
-                    <input type="text" id="usuario" placeholder="Usuario">
-
-                    <input type="password" id="contraseña" placeholder="Contraseña">
-
-                </form>
+                <a href="/index.html"><button>Inicio</button></a>
+                <a href="/quienesSomos.html"><button>Conócenos</button></a>
+                <a href="/rebajas.html"><button>Rebajas</button></a>
+                <a href="/productos.html"><button>Productos</button></a>
+                <a href="/contacto.html"><button>Contacto</button></a>
+                <button class="cerraMenuE" id="cerrar">Cerrar</button>
 
             </div>
+        </div>
 
-            <div class="contenedorDeBotonesJ">
+        <div class="imagenMobilE"><img src="/logo+iconos/logo-sextage.svg" alt=""></div>
 
-                <button class="iniciarJ">Iniciar sesión</button>
+        <div class="secundarioNavE">
 
-                <button class="registrateJ">Registrate</button>
-
+            <div class="idiomasNavE">
+                <a href=""><button>EH /</button></a>
+                <a href=""><button>ES /</button></a>
+                <a href=""><button>EU &nbsp</button></a>
             </div>
-
-            <div class="cajaDePregunta">
-
-                <label><input type="checkbox" id="checkbox1J" /> Recuerdame</label>
-
-                <label><input type="checkbox" id="checkbox1J" /> ¿Haz olvidado tu contraseña?</label>
-
+            <div class="idiomasNavTabletE">
+                <a href=""><button>EH </button></a>
+                <a href=""><button>ES </button></a>
+                <a href=""><button>EU </button></a>
             </div>
+        </div>
 
-            <script src="jesus.js"></script>
-
-        </main>
+        <script src="indexHambuergues.js"></script>
 
 
-        <footer>
-
+    </nav>
 
 
 
-            <div class="footerIzqJ">
-                <div class="infoContactoJ">
-                    <p>sixtage@sistage.com</p>
-                    <p>tel: +34 638898589</p>
-                </div>
-                <div class="contenedorImagenRedeFooterJ">
-                    <a href="https://www.twitch.tv/"><img src="logo+iconos/mdi_twitch.svg" alt=""></a>
-                    <a href="https://www.facebook.com/"><img src="logo+iconos/ic_baseline-facebook.svg" alt=""></a>
-                    <a href="https://www.instagram.com/"><img src="logo+iconos/mdi_instagram.svg" alt=""></a>
-                    <a href="https://twitter.com/?lang=es"><img src="logo+iconos/mdi_twitter.svg" alt=""></a>
+    <main class="pageAccesoJ">
 
-                </div>
 
-            </div>
-            <div class="footerCenJ">
-                <a href=""><img src="logo+iconos/logo-sextage.svg" alt=""></a>
-            </div>
+        <h1 class="tituloAccesoJ">¡HOLA!</h1>
+        <p class="parradoAccesoJ">Bienvenido a sixtage</p>
 
-            <div class="footerDerJ">
-                <div class="textoMetodoPagoJ">
-                    <p>Métodos de pago</p>
-                </div>
-                <div class="iconosMetodoPagoJ">
-                    <img src="/img/Visa.svg" alt="">
-                    <img src="/img/Maestro.svg" alt="">
-                    <img src="/img/DinersClub.svg" alt="">
-                    <img src="/img/PayPal.svg" alt="">
-                    <img src="/img/Apple Pay.svg" alt="">
+        <div class="AccesoUsuarioJ">
 
-                </div>
-            </div>
+            <form id="logingformJ">
 
-        </footer>
+                <input type="text" id="mailJ" required autofocus placeholder="Correo electrónico">
 
-        <div class="copyrightJ">
+                <input type="password" id="passwordJ" required placeholder="Contraseña">
 
-            <p> © 2024 - Derechos de autor de Sixtage -</p>
+                <input type="submit" value="ingresar">
+
+            </form>
 
         </div>
 
+        <div class="contenedorDeBotonesJ">
 
+
+
+            <a href="acceso2.html"><button class="registrateJ">Registrate</button></a>
+
+        </div>
+
+        <div class="cajaDePregunta">
+
+            <label><input type="checkbox" id="checkbox1J" /> Recuerdame</label>
+
+
+
+        </div>
+
+    </main>
+    <footer>
+
+        <div class="footerIzqJ">
+            <div class="infoContactoJ">
+                <p>sixtage@sistage.com</p>
+                <p>tel: +34 638898589</p>
+            </div>
+
+            <div class="contenedorImagenRedeFooterJ">
+                <a href="https://www.twitch.tv/"><img src="logo+iconos/mdi_twitch.svg" alt=""></a>
+                <a href="https://www.facebook.com/"><img src="logo+iconos/ic_baseline-facebook.svg" alt=""></a>
+                <a href="https://www.instagram.com/"><img src="logo+iconos/mdi_instagram.svg" alt=""></a>
+                <a href="https://twitter.com/?lang=es"><img src="logo+iconos/mdi_twitter.svg" alt=""></a>
+            </div>
+
+        </div>
+
+        <div class="footerCenJ">
+            <a href=""><img src="logo+iconos/logo-sextage.svg" alt=""></a>
+        </div>
+
+        <div class="footerDerJ">
+
+            <div class="textoMetodoPagoJ">
+                <p>Métodos de pago</p>
+            </div>
+
+            <div class="iconosMetodoPagoJ">
+                <img src="/img/Visa.svg" alt="">
+                <img src="/img/Maestro.svg" alt="">
+                <img src="/img/DinersClub.svg" alt="">
+                <img src="/img/PayPal.svg" alt="">
+                <img src="/img/Apple Pay.svg" alt="">
+            </div>
+        </div>
+    </footer>
+
+    <div class="copyrightJ">
+        <p> © 2024 - Derechos de autor de Sixtage -</p>
+    </div>
+
+    <script src="jesus2.js"></script>
 
 </body>
 
