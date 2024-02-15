@@ -58,9 +58,10 @@
 
 
 .nombretienda img{
-    width: 100%;
-   /*  border: solid pink 2px; */
-    margin-top: 5rem;
+    width: 110%;
+    /*  border: solid pink 2px; */
+    padding-top: 40px;
+    
 
  
 }
@@ -93,7 +94,7 @@
     display: flex;
     justify-content: space-between; 
     height: 100%;
-    gap: 20rem; 
+    gap: 10rem; 
    width: 100%;
 
 }
@@ -673,116 +674,121 @@ main{
 
  /* Parte del main de la parte de inicio */
  .mainIndex_R{ width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-   }
-
+               justify-content: center;
+               align-items: center;
+               flex-direction: column;
+               display: flex;
+             }
+       
 /* primera parte (parte superior) de inicio */
 .parte_1_R{ display: flex;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
-}
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+         }
 
 /* video de la parte de incio */
 .miVideo_R{ justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 200%;
-  height:200%;
-  z-index: 0; 
-  margin-top: 0;
-  position: relative;
-  background-size:auto;
-/*border: 0.3rem solid red;*/
-  width: 100%;
-/*  position: fixed;  */
-}
+            align-items: center;
+            text-align: center;
+            width: 200%;
+            height:200%;
+            z-index: 0; 
+            margin-top: 0;
+            position: relative;
+            background-size:auto;
+          /*border: 0.3rem solid red;*/
+            width: 100%;
+        /*  position: fixed;  */
+          }
+
 /* div donde se ubican los botones de encima del video */
 .buttons_R { position: absolute;
-   bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
-/* left: 50%;*/
- /*transform: translateX(-50%);*/
- /*opacity: 0.5;*/
-   display: flex;
-   width: 50%;
-   height:5%;
-   justify-content: center;
-   align-items: center;
+             bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
+          /* left: 50%;*/
+           /*transform: translateX(-50%);*/
+           /*opacity: 0.5;*/
+             display: flex;
+             width: 50%;
+             height:5%;
+             justify-content: center;
+             align-items: center;
 /*border: 0.5rem solid green;*/
-}
+           }
+
 /* Botones por individual */
 .buttons_R button { background-color: transparent;
-         font-size: 2rem;
-         color: white;
-         box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
-         border:0.1rem solid white;
-         border-radius: 30%;
-         border-radius: 60px;
-         padding: 1rem;
-         font-style: bold;
-       }      
-/* border-radius: 30%;
-margin: 0 100px;
-border-radius: 60px;
-margin: 20px 16px;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-padding: 15px 32px;
-width: 100%;
-height: 100%;
-font-size: 4rem;
-border: 0.3rem solid red;*/
+                    font-size: 2rem;
+                    color: white;
+                    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+                    border:0.1rem solid white;
+                    border-radius: 30%;
+                    border-radius: 60px;
+                    padding: 1rem;
+                    font-style: bold;
+                  }      
+                 /* border-radius: 30%;
+                    margin: 0 100px;
+                    border-radius: 60px;
+                    margin: 20px 16px;
+                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+                    padding: 15px 32px;
+                    width: 100%;
+                    height: 100%;
+                    font-size: 4rem;
+                    border: 0.3rem solid red;*/
 
 
 /* Parte de Jonathan Ibáñez */
 
 /* segunda parte (parte inferior) de inicio */
 .parte_2_JI{ width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  background-image: url(/img/_MG_4069.jpg);
-  background-size:cover;
-  background-repeat: no-repeat;
-  height: 50rem;
-  top: 0;
-}
+             display: flex;
+             align-items: center;
+             justify-content: center;
+             flex-direction: column;
+             background-image: url(/img/_MG_4069.jpg);
+             background-size:cover;
+             background-repeat: no-repeat;
+             height: 50rem;
+             top: 0;
+           }
+
  /* Titulo de encima del a cuenta atras */
 .titulo_JI{ display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
- color: white;
- font-size: 2rem;
- margin-top: 2rem;
- margin-bottom: 8rem;          
-}
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-size: 2rem;
+            margin-top: 2rem;
+            margin-bottom: 8rem;          
+          }
+
 /* Contenedor de la cuenta atras para que llegue la primavera */
 .contenedorCuentaAtras_JI{ width: 60%;
-                justify-content: center;
-                align-items: center;
-                display:flex;
-                margin-bottom: 3rem;
-              }
+                           justify-content: center;
+                           align-items: center;
+                           display:flex;
+                           margin-bottom: 3rem;
+                         }
 
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
 .contenerPequeñoCa_JI{ width: 15%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-direction: column;
-            background-color: white;
-            margin: 2rem;
-            margin-bottom: 5rem;
-            font-size: 2rem;
-            border-radius: 5%;
-          }
+                       display: flex;
+                       justify-content: center;
+                       align-items: center;
+                       flex-direction: column;
+                       background-color: white;
+                       margin: 2rem;
+                       margin-bottom: 5rem;
+                       font-size: 1.5rem;
+                       border-radius: 5%;
+                     }
+
 /* las palabras de día, hora, minutos y segundo */
 .contenerPequeñoCa_JI p { margin: 1rem;
-             }
+                        }
 
 
 
@@ -1572,11 +1578,6 @@ border: 0.3rem solid red;*/
 ******************Andres Contacto y Pop up correspondiente************* */
 
 
-.mainContactoAA {
-    display: flex;
-    width: 100%;
-}
-
 .contactoLogoBotonA {
     display: flex;
     
@@ -1587,18 +1588,123 @@ border: 0.3rem solid red;*/
     margin: 3%;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    /* height: 55rem; */
 
 }
 
-.contactoImagenA img {
-    width: 100%;
+.contactoLogoA img {
+    width: 50%;
+    margin-bottom: 5%;
 }
 
-.contactoTextoA {
+.contactoLogoA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    margin: 4%;
+}
+
+.contactoH2A {
+    font-size: x-large;
+}
+
+.contactoTxtBtnA {
     background-color: #FFFFF7;
     margin: 10%;
+    
 }
+
+.contactoTxtBtnA {
+    width: 60%;
+    text-align: center;
+    align-items: center;
+}
+
+.contactoBotonA {
+    margin: 10%;
+}
+
+.contactoTxtBtnA p {
+    margin: 10%;
+    font-size: x-large;
+}
+
+
+.contactoIzquierdaA {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.contactoDerechaA {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 100%;
+    
+}
+
+.botonPruebaGratisA {
+    margin-bottom: 25%;
+}
+
+
+.contactoImagenA img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+
+}
+
+/* ------------Pop Up Andres---------- */
+
+.popupMainA {
+    display: flex;
+    
+}
+
+.popupIzquierdaA {
+    background-color: #D9D9D9;
+}
+
+.tituloLogoA {
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+}
+
+.botonSuscribeteA {
+    width: 80%;
+}
+
+.botonNoGraciasA {
+    width: 80%;
+}
+
+.segundaMidadA {
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2453,7 +2559,59 @@ padding-top: 15px;
 
 
 
+/* Página de descripción del producto-----Jonathan Ibáñez------ */
 
+.MainDescripcionProducto_JI{ display: flex;
+                             width: 100%;
+                             flex-direction: column;
+                             justify-content: center;
+                             align-items: center;
+                           }
+
+.tituloDescripcion_JI{ display: flex;
+                       width: 100%;
+                       justify-content:center;
+                       align-items: center;
+                     }
+
+.contenedorDescripciónProducto_JI{ background-color: #89FCB3;
+                                   width: 80%;
+                                   height: 100%;
+                                   border: black;
+}
+
+.politica_empresa_JI{display: flex;
+                     justify-content: center;
+                     align-items: center;
+                     width: 80%;
+                     flex-direction: column;
+                    
+                    }
+.politicaEntrega_JI{/*display: flex;*/
+                    width: 100%;
+                    justify-content: start;
+                    align-items: start;
+                    flex-direction: column;
+                    text-align: start;
+                    left: 0;
+                    margin-top: 1rem;
+                   }       
+.politicaDevoluciones_JI{/*display: flex;*/
+                           width: 100%;
+                           justify-content: start;
+                           align-items: start;
+                           flex-direction: column;
+                           text-align: start;
+                           left: 0;
+                           margin-top: 1rem;
+                           margin-bottom: 2rem;
+                        }
+
+.metodoDePago_JI{display: flex;
+                 justify-content: center;
+                 align-items: center;
+                 flex-direction: column;
+                }
 
 
 
@@ -2602,6 +2760,28 @@ padding-top: 15px;
      .quienesSomosTextoE p{ margin-top: -5rem;
      }
     
+/* Jonathan y Rayan Inicio parte tablet */
+
+
+/* Parte superior (parte del video con botones) */
+.buttons_R{ width: 30%;
+            align-items: start;
+            bottom:inherit;
+            align-items:none;
+          }
+
+
+/* Parte inferior (parte de la cuenta de atras) */
+.contenedorCuentaAtras_JI{grid-row:auto;
+
+}
+
+
+
+
+
+
+
 }
 
 
