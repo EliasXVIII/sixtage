@@ -1584,7 +1584,7 @@ main{
 }
 
 .mainContactoBA {
-    background-color: #B1FCB3;
+    background-color: #D8FCB3;
     margin: 3%;
     display: flex;
     flex-direction: column;
@@ -1642,21 +1642,25 @@ main{
 .contactoDerechaA {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
     width: 100%;
     
 }
 
 .botonPruebaGratisA {
-    margin-bottom: 25%;
+    display: flex;
+    margin: 8%;    
 }
 
 
-.contactoImagenA img {
+/* .contactoImagenA {
     max-width: 100%;
     max-height: 100%;
     object-fit: cover;
 
+} */
+
+.contactoImagen1A {
+    justify-content: flex-end;
 }
 
 /* ------------Pop Up Andres---------- */
@@ -1668,27 +1672,161 @@ main{
 
 .popupIzquierdaA {
     background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .tituloLogoA {
     display: flex;
-    align-items: center;
-    font-size: x-large;
+}
+
+.tituloLogo1A {
+    width: 50%;
+    font-size: xx-large;
+    margin-left: 5%;
+    margin-bottom: 10%;
+    text-shadow: 1px 2px 5px rgb(108, 96, 96);
+
+}
+
+.logoLogoA {
+    width: 10%;
+}
+
+.logoLogo1A {
+    margin-right: 10%;
+    text-shadow: 1px 2px 5px rgb(108, 96, 96);
+
+}
+
+.popUpEmailH2A {
+    font-size: xx-large;
+    margin-left: 10%;
+    margin-bottom: 1%;
+    text-shadow: 1px 2px 5px rgb(108, 96, 96);
+
+
 }
 
 .botonSuscribeteA {
+    font-size:xx-large;
+    width: 100%;
+    background-color:#B1FCB3;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-bottom: 3%;
+    text-shadow: 1px 2px 5px rgb(108, 96, 96);
+
+
+}
+
+.botonSuscribete1A {
     width: 80%;
 }
 
 .botonNoGraciasA {
+    font-size:xx-large;
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.0); 
+     color: black;
+     border: none;
+      padding: 10px 20px;
+     border-radius: 5px;
+     cursor: pointer;
+     margin-bottom: 3%;
+     text-shadow: 1px 2px 5px rgb(108, 96, 96);
+    }
+
+.botonNoGracias1A {
     width: 80%;
 }
 
-.segundaMidadA {
+.segundaMitadA {
    display: flex;
    flex-direction: column;
     align-items: center;
 }
+
+.correoElectronicoA {
+    width: 100%;
+    margin-left: 10%;
+    margin-bottom: 3%;
+}
+
+.correoElectronico1A {
+    font-size:xx-large;
+    width: 80%;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.segundaMitadTextoA {
+    width: 60%;
+    text-align: center;
+}
+
+
+/* --------------- contactoFormulario ------------- */
+
+.formularioA {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ContactoFormularioA {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    /* max-width: 100%; */
+    max-width: 600px;
+    border-radius: 10px;
+}
+.ContactoFormularioA h3 {
+    color: black;
+    font-weight: 800;
+    margin: 20px;
+
+}
+
+.contactanosH3A {
+    background-color:#B1FCB3;
+    border-radius: 10px;
+   
+}
+
+.ContactoFormularioA input {
+    border: 0;
+    margin: 10px 0;
+    padding: 20px;
+    outline: none;
+    background:#D9D9D9;
+    font-size: 16px;
+}
+
+.ContactoFormularioA button {
+    padding: 15px;
+    background:#D9D9D9;
+    color: black;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+
+}
+
+
+
+
 
 
 
@@ -2600,8 +2738,9 @@ padding-top: 15px;
 
 
 
-/* Página de descripción del producto-----Jonathan Ibáñez------ */
+/* Página de descripción del producto Y Carrito de la compra-----Jonathan Ibáñez------ */
 
+/* Contenedor del main donde esta la parte del main de carrito de compra y descripción del producto */
 .MainDescripcionProducto_JI{ display: flex;
                              width: 100%;
                              flex-direction: column;
@@ -2609,25 +2748,28 @@ padding-top: 15px;
                              align-items: center;
                            }
 
+/* Parte del titulo de las paginas */
 .tituloDescripcion_JI{ display: flex;
                        width: 100%;
                        justify-content:center;
                        align-items: center;
                      }
 
+/* COntenedor de ambas paginas donde va la parte del js  */
 .contenedorDescripciónProducto_JI{ background-color: #89FCB3;
                                    width: 80%;
                                    height: 100%;
                                    border: black;
-}
+                                 }
 
+/* POlitica de etrega y devoluciones parte descripcion del producto */
 .politica_empresa_JI{display: flex;
                      justify-content: center;
                      align-items: center;
                      width: 80%;
                      flex-direction: column;
-                    
                     }
+/* Parte de entrega */                   
 .politicaEntrega_JI{/*display: flex;*/
                     width: 100%;
                     justify-content: start;
@@ -2636,7 +2778,8 @@ padding-top: 15px;
                     text-align: start;
                     left: 0;
                     margin-top: 1rem;
-                   }       
+                   }  
+/* Parte de devolución */    
 .politicaDevoluciones_JI{/*display: flex;*/
                            width: 100%;
                            justify-content: start;
@@ -2648,11 +2791,30 @@ padding-top: 15px;
                            margin-bottom: 2rem;
                         }
 
+/* Parte de iconos de metodos de pago que tiene le cliente para pagar */
 .metodoDePago_JI{display: flex;
                  justify-content: center;
                  align-items: center;
                  flex-direction: column;
                 }
+
+/* Contenedor de botones de seguir comprando o registrarse de carrito de compra */
+.botonesCarrito_JI{ display: flex;
+                    margin: 2rem;
+                  }
+
+/* botones por individuales */
+.botonesCarrito_JI button{  background-color: #89FCB3;
+                            color: black;
+                            display: flex;
+                            margin: 3rem;
+                            padding: 1rem;
+                            border-radius: 2em;
+                            border:none;
+                        }
+/* Enlace de donde te llevan los botones, he quitado el subrayado */
+.botonesCarrito_JI a {text-decoration: none;
+                     }
 
 
 
