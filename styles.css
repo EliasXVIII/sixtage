@@ -42,7 +42,7 @@
   position:absolute;
   display: block;
   bottom: .2rem;
-  right: 1rem;
+  right: 2rem;
   
 }
 
@@ -67,9 +67,6 @@
     margin-left: -2.5rem;
     width: 23rem;
     height: 10rem;
-    
-    
-    
     
 
  
@@ -114,6 +111,9 @@
     align-items: flex-end;
 }
 
+.loginMobileE{
+    display: none;
+}
 
 
 
@@ -3351,11 +3351,12 @@ padding-top: 15px;
         left: 0;
         display: flex;
         flex-direction: column;
-        height: 15rem;
+        height: 18rem;
         background-color: var(--principal);
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0, 0, 0, .5);
         border-radius: 0 0 1rem 0;
+        z-index: 1;
     
     }
 
@@ -3407,7 +3408,7 @@ padding-top: 15px;
 
     .imagenMobilE{
         display: flex;
-        padding-right: 33%; 
+        padding-right: 25%; 
 
     }
 
@@ -3468,6 +3469,22 @@ padding-top: 15px;
         margin-left: 1.5rem;
     }
     
+    .headerlou{
+        display: none;
+    }
+
+    .loginMobileE img{
+        width: 1.5rem;
+    margin: .7rem;
+    cursor: pointer;
+    
+    }
+
+    .loginMobileE{
+    display: flex;
+    align-items: center;
+    
+    }
 }  
 
 
