@@ -2224,16 +2224,44 @@ main{
     color: white    ;
 }
 
-.AccesoUsuarioJ, #mailJ #password{
+.AccesoUsuarioJ{
     display: flex;
-    flex-direction: column;
     height: 20rem;
     align-items: center;
     margin-top: 1rem;
+    /* border: solid; */
+    
     
 }
 
-#usuario{
+#logingformJ{
+   /*  border: solid; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.botonLoginExterno{
+   /*  border: solid; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 43rem;
+    height: 5rem;
+    color: white;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+    font-weight: 600;
+
+
+}
+.btnRegistrarLogin{
+    width: 40rem;
+    display: flex;
+    gap: 3rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+/* #usuario, {
     height: 4rem;
     width: 35rem;
     border: solid black;
@@ -2245,8 +2273,8 @@ main{
     margin-top: 4rem;
     padding-left: 1rem;
     font-weight: 800;
-}
-#contraseña{
+} */
+/* #contraseña{
     height: 4rem;
     border: solid black;
     width: 35rem;
@@ -2256,11 +2284,20 @@ main{
     opacity: 0.7;
     padding-left: 1rem;
     font-weight: 800;
-}
+} */
 .contenedorDeBotonesJ{
     display: flex;
     justify-content: center;
-    width: 40rem;
+    width: 95%;
+    color: white;
+}
+
+.contenedorDeBotonesJ span,a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    
+
 }
 .iniciarJ{
         color: black !important;
@@ -2318,7 +2355,7 @@ color: white !important;
 }
 .tituloPageAcceso2{
     width: 40rem;
-    margin-top: 4rem;
+    padding-top: 3rem;
 }
 
 .tituloAcceso2J{
@@ -2341,7 +2378,7 @@ color: white !important;
 
 #mailJ{
     height: 4rem;
-    width: 42rem;
+    width: 95%;
     margin: 1rem;
     border-radius: 1rem;
     border: solid black;
@@ -2349,39 +2386,43 @@ color: white !important;
     font-size: 2.3rem;
     opacity: 0.7;
 }
-#nameJ{
+
+#passwordJ{
     height: 4rem;
-    width: 20rem;
+    width: 95%;
     margin: 1rem;
     border-radius: 1rem;
     border: solid black;
     padding-left: 0.5rem;
     font-size: 2.3rem;
     opacity: 0.7;
+}
+
+#nameJ{
+    height: 4rem;
+    width: 45%;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: solid black;
+    padding-left: 0.5rem;
+    font-size: 2.3rem;
+    opacity: 0.7;
+    align-items: center;
 }
 #lastnameJ{
     height: 4rem;
-    width: 20rem;
+    width: 45%;
     margin: 1rem;
     border-radius: 1rem;
     border: solid black;
     padding-left: 0.5rem;
     font-size: 2.3rem;
     opacity: 0.7;
+    align-items: center;
 }
 #telefonoJ{
     height: 4rem;
-    width: 42rem;
-    margin: 1rem;
-    border-radius: 1rem;
-    border: solid black;
-    padding-left: 0.5rem;
-    font-size: 2.3rem;
-    opacity: 0.7;
-}
-#passwordJ{
-    height: 4rem;
-    width: 42rem;
+    width: 96%;
     margin: 1rem;
     border-radius: 1rem;
     border: solid black;
@@ -2402,7 +2443,7 @@ color: white !important;
 }
 .registrarPage2J{
     margin-top: 1rem;
-    align-items: center;
+    align-items: center; 
     color: black !important;
     font-size: 1.5rem;
     height: 3rem;
@@ -2949,9 +2990,37 @@ padding-top: 15px;
 
 
 
+/* 
+********jesus Tablet***** */
 
+.tituloPageAcceso2{
+    
+    font-size: 2rem;
+    width: 80%;
+}
+.tituloAcceso2J{
+    font-size: 2.8rem;
+    
+}
+.formulario2J{
+   
+    width: 80%;
+}
+#nameJ, #lastnameJ {
+    width: 45%;
+    margin-right: 0rem;
+    height: 3.5rem;
+}
 
+#lastnameJ{
+    width: 45%;
+}
 
+.botonLoginExterno{
+    width: 80%;
+    flex-direction: column;
+    gap: 0.5rem;
+}
 
 }
 
@@ -3238,7 +3307,7 @@ padding-top: 15px;
 
 /* MOVIL */
 @media screen and (max-width: 550px){
-  /*   
+  /*   º
         .principalNavE{
         display: none;
     } */
@@ -3367,11 +3436,24 @@ padding-top: 15px;
         padding-bottom: 2rem;
     }
 
+   /* ******* Jesus Mobile Login***** */
+
+    .contenedorDeBotonesJ{
+       width: 60%;
+      
+    }
+    .registrateJ{
+        margin-left: 1.5rem;
+    }
     
+}  
 
 
-}
-    
+
+
+
+
+
 
 
 
