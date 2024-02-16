@@ -52,7 +52,9 @@
     width: 22rem;
 }
    
-
+.logoTablet{
+    display: none;
+}
 
 .logo img{
     width: 10rem;
@@ -3011,6 +3013,33 @@ padding-top: 15px;
     gap: 0.5rem;
 }
 
+
+
+
+
+/* ***********Loudes Tablet*********** */
+.nombretienda img{
+    display: none;
+}
+
+.logo_buscar{
+    width: 33%;
+}
+
+.logo{
+    display: none;
+    
+}
+
+.logo img{
+    border: solid;
+}
+
+.logoTablet{
+    display: flex;
+    width: 33%;
+}
+
 }
 
 
@@ -3378,7 +3407,7 @@ padding-top: 15px;
 
     .imagenMobilE{
         display: flex;
-        padding-right: 25%; 
+        padding-right: 33%; 
 
     }
 
@@ -3439,12 +3468,6 @@ padding-top: 15px;
         margin-left: 1.5rem;
     }
     
-
-/* ********Index Rayan y Jonathan******* */
-
-.contenerPequeñoCa_JI{  width: 20%;}
-
-
 }  
 
 
