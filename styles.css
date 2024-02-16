@@ -43,33 +43,42 @@
   display: block;
   bottom: .2rem;
   right: 1rem;
+  
 }
 
-/* .logo_buscar {
-  /*   border:  solid pink 2px; }*/
+.logo_buscar {
+    margin-left: -.5rem;
+    
+    width: 22rem;
+}
    
 
 
 .logo img{
-/*  border: solid brown 2px; */
-    width:100%;
-    height: 80%;
+    width: 10rem;
+    height: 8rem;
+    
 }
 
 
 .nombretienda img{
-    width: 110%;
-    /*  border: solid pink 2px; */
-    padding-top: 40px;
+    margin-left: -2.5rem;
+    width: 23rem;
+    height: 10rem;
+    
+    
+    
     
 
  
 }
 .log_fav_carro{
     display: flex;
-  /*  border: solid brown 2px;  */ 
+    /* border: solid brown 2px; */ 
     gap:1.5px;
-    align-items: center; 
+    align-items: center;
+    margin-right: 4rem; 
+
     
 }
 .login img{
@@ -90,12 +99,12 @@
 
 
 .headerlou{ 
-    /* border: solid green; */
+   /*  border: solid green; */
     display: flex;
     justify-content: space-between; 
-    height: 100%;
-    gap: 10rem; 
-   width: 100%;
+    height: 10rem;
+    /* gap: 10rem;  */
+   
 
 }
 .logo_buscar{
