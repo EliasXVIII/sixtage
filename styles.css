@@ -681,125 +681,114 @@ main{
 /* ****************RAYAN Inicio*********************
  */
 
- /* Parte de Rayan */
+/* Main del parte index */
+.mainIndex_R{   width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
 
- /* Parte del main de la parte de inicio */
- .mainIndex_R{ width: 100%;
-               justify-content: center;
-               align-items: center;
-               flex-direction: column;
-               display: flex;
-             }
-       
-/* primera parte (parte superior) de inicio */
+/* Parte superior del index */
+
 .parte_1_R{ display: flex;
             width: 100%;
+            height: 100%;
             justify-content: center;
-            align-items: center;
-         }
-
-/* video de la parte de incio */
-.miVideo_R{ justify-content: center;
-            align-items: center;
-            text-align: center;
-            width: 200%;
-            height:200%;
-            z-index: 0; 
-            margin-top: 0;
-            position: relative;
-            background-size:auto;
-          /*border: 0.3rem solid red;*/
-            width: 100%;
-        /*  position: fixed;  */
+            align-items: end;
           }
 
-/* div donde se ubican los botones de encima del video */
-.buttons_R { position: absolute;
-             bottom: 0.5rem; /* ajusta la posición vertical según sea necesario */
-          /* left: 50%;*/
-           /*transform: translateX(-50%);*/
-           /*opacity: 0.5;*/
-             display: flex;
-             width: 50%;
-             height:5%;
-             justify-content: center;
-             align-items: center;
-/*border: 0.5rem solid green;*/
-           }
+/* Parte del video */
+.video_R{   position: relative;
+            width: 100%;
+            height: 100%;
+            margin-top: 0 auto;
+            text-align: center;
+        }
 
-/* Botones por individual */
-.buttons_R button { background-color: transparent;
-                    font-size: 2rem;
-                    color: white;
-                    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
-                    border:0.1rem solid white;
-                    border-radius: 30%;
-                    border-radius: 60px;
-                    padding: 1rem;
-                    font-style: bold;
-                  }      
-                 /* border-radius: 30%;
-                    margin: 0 100px;
-                    border-radius: 60px;
-                    margin: 20px 16px;
-                    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-                    padding: 15px 32px;
-                    width: 100%;
-                    height: 100%;
-                    font-size: 4rem;
-                    border: 0.3rem solid red;*/
+.video_R video{ width: 100%;
+              }
 
+/* Parte de los botones que van encima del video */
 
-/* Parte de Jonathan Ibáñez */
+.botonesEntrada_R{  width: 25%;
+                    display: flex;
+                    position: absolute;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 3rem;        
+                 }
 
-/* segunda parte (parte inferior) de inicio */
+.botonesIndividualmente_R{  margin: 1rem;
+                            background-color: transparent;
+                            font-size: 1rem;
+                            color: white;
+                            box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
+                            border:0.1rem solid white;
+                            border-radius: 30%;
+                            border-radius: 60px;
+                            padding: 1rem;
+                            font-style: bold;
+                        }
+
+/* Segunda parte de la página index */
+
 .parte_2_JI{ width: 100%;
-             display: flex;
-             align-items: center;
-             justify-content: center;
-             flex-direction: column;
-             background-image: url(/img/_MG_4069.jpg);
-             background-size:cover;
-             background-repeat: no-repeat;
-             height: 50rem;
-             top: 0;
-           }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-image: url(/img/_MG_4069.jpg);
+            background-size:cover;
+            background-repeat: no-repeat;
+            top: 0
+            }
 
- /* Titulo de encima del a cuenta atras */
+/* Título de la cuenta atrás */
+
 .titulo_JI{ display: flex;
+            width: 80%;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             color: white;
             font-size: 2rem;
             margin-top: 2rem;
-            margin-bottom: 8rem;          
-          }
+            margin-bottom: 8rem;  
+            text-align: center;       
+           }
 
-/* Contenedor de la cuenta atras para que llegue la primavera */
-.contenedorCuentaAtras_JI{ width: 60%;
-                           justify-content: center;
-                           align-items: center;
-                           display:flex;
-                           margin-bottom: 3rem;
-                         }
+/* Contenedor de la cuenta atrás */
+.contenedorCuentaAtras_JI{  width: 80%;
+                            
+                            justify-content: center;
+                            align-items: center;
+                            display:flex;
+                            margin-bottom: 3rem;
+                            flex-wrap: wrap;
+                            border: 0.3rem solid red;
+                        }
 
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
-.contenerPequeñoCa_JI{ width: 15%;
-                       display: flex;
-                       justify-content: center;
-                       align-items: center;
-                       flex-direction: column;
-                       background-color: white;
-                       margin: 2rem;
-                       margin-bottom: 5rem;
-                       font-size: 1.5rem;
-                       border-radius: 5%;
-                     }
+.contenerPequeñoCa_JI{  width: 15%;
+                        display: flex;
+                        
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        background-color: white;
+                        margin: 2rem;
+                        margin-bottom: 2rem;
+                        font-size: 1.5rem;
+                        border-radius: 5%;
+                        border: 0.3rem solid green;
+                    }
 
 /* las palabras de día, hora, minutos y segundo */
-.contenerPequeñoCa_JI p { margin: 1rem;
+.contenerPequeñoCa_JI p { margin: 1.5rem;
                         }
+
+
 
 
 
@@ -3054,7 +3043,11 @@ padding-top: 15px;
 }
 
 
+/* *********** Parte Index de Rayan y Jonathan*********** */
 
+.titulo_JI{font-size: 1rem;}
+    
+.contenerPequeñoCa_JI{  width: 30%;}
 
 
 
@@ -3475,9 +3468,6 @@ padding-top: 15px;
         margin-left: 1.5rem;
     }
     
-    .headerlou{
-        display:none;
-    }
 }  
 
 
