@@ -729,6 +729,7 @@ main{
                             border-radius: 60px;
                             padding: 1rem;
                             font-style: bold;
+                            cursor: pointer;
                         }
 
 /* Segunda parte de la página index */
@@ -759,20 +760,19 @@ main{
            }
 
 /* Contenedor de la cuenta atrás */
-.contenedorCuentaAtras_JI{  width: 80%;
-                            
+.contenedorCuentaAtras_JI{  width: 80%;   
+                            display: flex; 
                             justify-content: center;
                             align-items: center;
                             display:flex;
                             margin-bottom: 3rem;
-                            flex-wrap: wrap;
-                            border: 0.3rem solid red;
-                        }
+                            /*flex-wrap: wrap;*/
+                            
+                         }
 
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
 .contenerPequeñoCa_JI{  width: 15%;
                         display: flex;
-                        
                         justify-content: center;
                         align-items: center;
                         flex-direction: column;
@@ -781,7 +781,7 @@ main{
                         margin-bottom: 2rem;
                         font-size: 1.5rem;
                         border-radius: 5%;
-                        border: 0.3rem solid green;
+                        
                     }
 
 /* las palabras de día, hora, minutos y segundo */
@@ -3278,14 +3278,24 @@ padding-top: 15px;
     width: 33%;
 }
 
-}
-
 
 /* *********** Parte Index de Rayan y Jonathan*********** */
 
 .titulo_JI{font-size: 1rem;}
+
+.contenedorCuentaAtras_JI{flex-wrap: wrap;}
     
-.contenerPequeñoCa_JI{  width: 30%;}
+.contenerPequeñoCa_JI{  width: 30%;
+                        
+                     }
+                    
+
+
+
+}
+
+
+
 
 
 
@@ -3723,6 +3733,10 @@ padding-top: 15px;
     align-items: center;
     
     }
+
+
+
+
 }  
 
 

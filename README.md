@@ -48,10 +48,10 @@ Andres Echeverry
 Lourdes
 Jesús
 Elías 
-Jonathan Ibáñez
+Jonathan Ibáñez 
 Rayan
 ## :arrow_right: https://www.linkedin.com/in/elias-javier-riquelme-b62655297/
-
+## :arrow_right: www.linkedin.com/in/jonathan-ibańez-perez
 ¡Siéntete libre de contribuir, informar problemas o sugerir mejoras!
 
 ¡Disfruta De navegar y explorar los diferentes rincones de la WEb!
