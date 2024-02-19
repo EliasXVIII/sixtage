@@ -1336,7 +1336,7 @@ main{
 .contenedor-items{
     border: black solid;
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
+    grid-template-columns:repeat(4, 1fr);
     gap: 20px;
 }
 
@@ -1373,13 +1373,14 @@ main{
     flex-direction: column;
     gap: 10px;
 }
-.infoproduct button{
+.infoproduct .btnañadir{
     border: none;
     background: none;
     background-color: black;
     color: white;
     padding: 15px 10px;
     cursor: pointer;
+    width: 100%;
 }
 
 
