@@ -1815,33 +1815,34 @@ main{
     display: flex;
     flex-direction: column;
     padding: 5%;
-    width: 45%;
-    max-width: 100%;
-    border-radius: 3%;
+    width: 40%;
+    border: 20px solid #B1FCB3;
+
+    
 }
 
 .contactanosH3A {
     background-color:#B1FCB3;
-    padding-left: 10%;
-    padding-right: 10%;
-    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
     
 }
 
 .contactanosH3A h3 {
-    margin: 20px; 
+    margin: 10%; 
+    text-align: center;
 }
 
 .contactanosTextoA p {
+    font-size: large;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .formularioParte2A {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    width: 100%;
 
 }
 
@@ -1854,7 +1855,7 @@ main{
 .formularioNombreA {
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    padding-right: 20%;
 
 }
 
@@ -1884,6 +1885,9 @@ main{
     padding-right: 100%;
 }
 
+/* -----formulario segunda parte ------
+ */
+
 
 
 
@@ -1894,13 +1898,26 @@ main{
 
 
 .ContactoFormularioA input {
+    width: 100%;
     border: 0;
-    margin: 2%;
-    padding: 20px;
-    outline: none;
     background:#D9D9D9;
     font-size: 15px;
-    height: 15%;
+    height: 3rem;
+   
+}
+
+.emaiInputA input {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    
+    
+}
+
+.telefonoInputA input {
+    width: 100%;
+    
 }
 
 .ContactoFormularioA button {
@@ -1917,7 +1934,31 @@ main{
 .textareaFormularioA {
     resize: none;
     width: 100%;
+    background-color: #D9D9D9;
 }
+
+.emailH3A {
+    padding-top: 5%;
+}
+
+.telefonoH3A {
+    padding-top: 5%;
+}
+
+.mensajeH3A {
+    padding-top: 5%;
+}
+
+.botonFormularioA {
+    padding-top: 5%;
+
+}
+
+.botonFormularioA button {
+    width: 100%;
+}
+
+
 
 
 
