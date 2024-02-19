@@ -30,15 +30,43 @@
         </div>
     
         <div class="nombretienda"><img src="logo+iconos/SIXTAGE.svg" alt=""></div>
-    
+   <!--  empieza carro -->
     <div class="log_fav_carro">
         <div class="login"><a href="acceso.html"><img src="logo+iconos/Vector.svg" alt=""></a></div>
         <div class="favorito"><img src="logo+iconos/heart.svg" alt=""></div>
-        <div class="carro"><img src="logo+iconos/carrocompra.svg" alt=""></div>
+        <div class="contenedorcarroicono"><img src="logo+iconos/carrocompra.svg" alt=""></div>
+            <div class="contadorproductos">
+            <span id="contadorproductos" >0</span>
+            </div>   
+
+      <div class="contenedorcarroproducto" class="hiddencarro">
+        <div class="columnacarrohidden">
+            <div class="carroproducto">
+                <div class="infocarroproducto">
+                   <span class="cantidad-producto-carrito">1</span>
+                   <p class="titulo-info-carrito">zapatos</p>
+                  <span class="precio-producto-carrito">80$</span>
+                </div>
+                <img class="iconocruz" src="fotos/cruz.svg" alt="">
         
+        </div>       
+      </div> 
+
+
+
+        <div class="carrototalhidden">
+
+            <div class="total-carrito">
+            <h3>total</h3>
+            <span class="total-pagar">200€</span>
+            </div>
+            <p class="carrovacio"></p>
+        </div>
+
     </div>
-    
-    </header>
+    </div>
+   </header>
+
     
     
     
@@ -98,6 +126,65 @@
 
 <main>
 
+<!-- desde aquí items productos -->
+
+<div class="contenedor-items">
+
+    <div class="item">
+        <figure><img src="imgproductos/blucher.jpg" alt=""></figure>
+        <div class="infoproduct">
+            <h2>lote</h2>
+            <p>2999$</p>
+     
+        <button class="btnañadir">Añadir</button></div>
+    </div>
+
+    <div class="item">
+            <figure><img src="imgproductos/maletin.jpg" alt=""></figure>
+            <div class="infoproduct">
+                <h2>Iphone </h2>
+                <p>990$</p>
+                <button class="btnañadir">Añadir</button></div>
+    </div>
+
+    <div class="item">
+                <figure><img src="imgproductos/botas.jpg" alt=""></figure>
+                <div class="infoproduct">
+                    <h2>Iphone</h2>
+                    <p>799$</p>
+                    <button class="btnañadir">Añadir</button></div>
+    </div>
+
+    <div class="item">
+                    <figure><img src="imgproductos/bolsom.jpg" alt=""></figure>
+                    <div class="infoproduct">
+                        <h2>porque????</h2>
+                        <p>1400$</p>
+                        <button class="btnañadir">Añadir</button></div>
+     </div>
+
+     <div class="item">
+                        <figure><img src="imgproductos/bolso.jpg" alt=""></figure>
+                        <div class="infoproduct">
+                            <h2>Ordenador portatil</h2>
+                            <p>1600$</p>
+                            <button class="btnañadir">Añadir</button></div>
+     </div>
+
+     <div class="item">
+                         <figure><img src="imgproductos/calcetines.jpg" alt=""></figure>
+                         <div class="infoproduct">
+                             <h2>Ordenador portatil</h2>
+                             <p>1600$</p>
+                             <button class="btnañadir">Añadir</button></div>
+     </div>
+
+
+    
+</div>
+
+
+
 </main>
 
 
@@ -113,7 +200,7 @@
 
 <div class="footerIzqJ">
     <div class="infoContactoJ">
-        <p>sixtage@sistage.com</p>
+        <p>sixtage@sixtage.com</p>
            <p>tel: +34 638898589</p> 
     </div>
     <div class="contenedorImagenRedeFooterJ">
@@ -213,6 +300,6 @@
 
 
 
-    
+<script src="productosindex.js"></script>   
 </body>
 </html>
