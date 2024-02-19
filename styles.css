@@ -760,33 +760,77 @@ main{
            }
 
 /* Contenedor de la cuenta atrás */
-.contenedorCuentaAtras_JI{  width: 80%;   
+#contenedorCuentaAtras_JI{  width: 80%;   
                             display: flex; 
                             justify-content: center;
                             align-items: center;
                             display:flex;
                             margin-bottom: 3rem;
+                            font-size: 3rem;
+                            
+
                             /*flex-wrap: wrap;*/
                             
                          }
 
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
-.contenerPequeñoCa_JI{  width: 15%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        background-color: white;
-                        margin: 2rem;
-                        margin-bottom: 2rem;
-                        font-size: 1.5rem;
-                        border-radius: 5%;
-                        
-                    }
+
+#contenedorDiasJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                 
+}
+#contenedorHorasJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                
+}
+#contenedorMinutosJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                  
+}
+#contenedorSegundosJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                   
+}
 
 /* las palabras de día, hora, minutos y segundo */
-.contenerPequeñoCa_JI p { margin: 1.5rem;
-                        }
+#contenerPequeñoCa_JI p { 
+    margin: 1.5rem;
+    font-size: 3rem;
+                        
+
+}
 
 
 
@@ -3069,7 +3113,7 @@ padding-top: 15px;
 
 
 /* Parte inferior (parte de la cuenta de atras) */
-.contenedorCuentaAtras_JI{grid-row:auto;
+#contenedorCuentaAtras_JI{grid-row:auto;
 
 }
 
@@ -3139,11 +3183,20 @@ padding-top: 15px;
 
 .titulo_JI{font-size: 1rem;}
 
-.contenedorCuentaAtras_JI{flex-wrap: wrap;}
+#contenedorCuentaAtras_JI{flex-wrap: wrap;}
     
-.contenerPequeñoCa_JI{  width: 30%;
-                        
-                     }
+#contenedorDiasJi{
+    width: 30%;
+}
+#contenedorHorasJi{
+    width: 30%;
+}
+#contenedorMinutosJi{
+    width: 30%;
+}
+#contenedorSegundosJi{
+    width: 30%;
+}
                     
 
 
