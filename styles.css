@@ -767,7 +767,7 @@ main{
                             display:flex;
                             margin-bottom: 3rem;
                             /*flex-wrap: wrap;*/
-                            border: 0.3rem solid red;
+                            
                          }
 
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
@@ -781,7 +781,7 @@ main{
                         margin-bottom: 2rem;
                         font-size: 1.5rem;
                         border-radius: 5%;
-                        border: 0.3rem solid green;
+                        
                     }
 
 /* las palabras de día, hora, minutos y segundo */
