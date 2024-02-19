@@ -89,7 +89,7 @@
     width: 1.5rem;
     margin: .5rem;
     cursor: pointer;
-}
+}/* aqui va a romper */
 .carro img {
     width: 1.5rem;
     margin: .5rem;
@@ -1281,6 +1281,152 @@ main{
 
 /* **********************Lourdes Rebajas y Productos***************** */
 
+.log_fav_carro{/* background-color: pink; */
+    width: 180px;
+    height: 40px;
+    stroke: black;
+    position: relative;
+}
+/*  aquí arreglo */
+/* .contenedoriconos{position: relative;} */
+
+.cesta{
+    max-width: 100%;
+}
+[alt="cruz"]{width: 25px;height: 25px;}
+
+.contadorproductos{
+    position: absolute;
+    top: 55%;
+    right: 0;
+    background-color:#000;
+    color: #fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.contenedorcarroproducto{
+    position: absolute;      
+    
+   /*  background-color:#df0f0f; */
+    width: 400px;
+    z-index: 1;
+    box-shadow: 0 10px 20px rgba(0,0,0,20);
+    border-radius: 10px;
+    top: 3rem;
+
+    }
+.contenedorcarroicono:hover{cursor: pointer;}
+
+.carroproducto{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-bottom: 1px solid rgba(0,0,0,20);
+}
+.infocarroproducto{
+    
+    display: flex;
+    justify-content: space-between;
+    flex: .1;
+}
+
+.titulo-info-carrito{
+    font-size: 20px;
+
+}
+
+.precio-producto-carrito{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+
+.cantidad-producto-carrito{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.total-carrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+
+.total-carrito h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.total-pagar{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+
+.hiddencarro {
+    display: none;
+   }
+
+/*   items productos */
+
+.contenedor-items{
+    border: black solid;
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+}
+
+.item{
+ 
+    border-radius: 10px;
+    border: solid red;
+
+}
+
+.item img{
+
+  border: solid purple;
+    width: 100%;
+    height: 100%;
+    /*adapta la imagen objec*/
+    object-fit: cover;
+    border-radius: 10x 10px 0 0 ;
+    transition: all .5s;
+}
+
+.item:hover img{
+    transform: scale(1.2);
+}
+.item figure {overflow: hidden;}
+.item:hover{
+    box-shadow: 0 10px 20px rgba(0,0,0,20);
+}
+
+.infoproduct{
+    padding: 15px 30px;
+    /*interlineado*/
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.infoproduct .btnañadir{
+    border: none;
+    background: none;
+    background-color: black;
+    color: white;
+    padding: 15px 10px;
+    cursor: pointer;
+    width: 100%;
+}
 
 
 
@@ -1859,33 +2005,34 @@ main{
     display: flex;
     flex-direction: column;
     padding: 5%;
-    width: 45%;
-    max-width: 100%;
-    border-radius: 3%;
+    width: 40%;
+    border: 20px solid #B1FCB3;
+
+    
 }
 
 .contactanosH3A {
     background-color:#B1FCB3;
-    padding-left: 10%;
-    padding-right: 10%;
-    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
     
 }
 
 .contactanosH3A h3 {
-    margin: 20px; 
+    margin: 10%; 
+    text-align: center;
 }
 
 .contactanosTextoA p {
+    font-size: large;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .formularioParte2A {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    width: 100%;
 
 }
 
@@ -1898,7 +2045,7 @@ main{
 .formularioNombreA {
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    padding-right: 20%;
 
 }
 
@@ -1928,6 +2075,9 @@ main{
     padding-right: 100%;
 }
 
+/* -----formulario segunda parte ------
+ */
+
 
 
 
@@ -1938,13 +2088,26 @@ main{
 
 
 .ContactoFormularioA input {
+    width: 100%;
     border: 0;
-    margin: 2%;
-    padding: 20px;
-    outline: none;
     background:#D9D9D9;
     font-size: 15px;
-    height: 15%;
+    height: 3rem;
+   
+}
+
+.emaiInputA input {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    
+    
+}
+
+.telefonoInputA input {
+    width: 100%;
+    
 }
 
 .ContactoFormularioA button {
@@ -1961,7 +2124,31 @@ main{
 .textareaFormularioA {
     resize: none;
     width: 100%;
+    background-color: #D9D9D9;
 }
+
+.emailH3A {
+    padding-top: 5%;
+}
+
+.telefonoH3A {
+    padding-top: 5%;
+}
+
+.mensajeH3A {
+    padding-top: 5%;
+}
+
+.botonFormularioA {
+    padding-top: 5%;
+
+}
+
+.botonFormularioA button {
+    width: 100%;
+}
+
+
 
 
 
