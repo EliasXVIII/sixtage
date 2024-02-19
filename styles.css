@@ -760,33 +760,77 @@ main{
            }
 
 /* Contenedor de la cuenta atrás */
-.contenedorCuentaAtras_JI{  width: 80%;   
+#contenedorCuentaAtras_JI{  width: 80%;   
                             display: flex; 
                             justify-content: center;
                             align-items: center;
                             display:flex;
                             margin-bottom: 3rem;
+                            font-size: 3rem;
+                            
+
                             /*flex-wrap: wrap;*/
                             
                          }
 
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
-.contenerPequeñoCa_JI{  width: 15%;
-                        display: flex;
-                        justify-content: center;
-                        align-items: center;
-                        flex-direction: column;
-                        background-color: white;
-                        margin: 2rem;
-                        margin-bottom: 2rem;
-                        font-size: 1.5rem;
-                        border-radius: 5%;
-                        
-                    }
+
+#contenedorDiasJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                 
+}
+#contenedorHorasJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                
+}
+#contenedorMinutosJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                  
+}
+#contenedorSegundosJi{
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 2rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    border-radius: 5%;                   
+}
 
 /* las palabras de día, hora, minutos y segundo */
-.contenerPequeñoCa_JI p { margin: 1.5rem;
-                        }
+#contenerPequeñoCa_JI p { 
+    margin: 1.5rem;
+    font-size: 3rem;
+                        
+
+}
 
 
 
@@ -1962,33 +2006,34 @@ main{
     display: flex;
     flex-direction: column;
     padding: 5%;
-    width: 45%;
-    max-width: 100%;
-    border-radius: 3%;
+    width: 40%;
+    border: 20px solid #B1FCB3;
+
+    
 }
 
 .contactanosH3A {
     background-color:#B1FCB3;
-    padding-left: 10%;
-    padding-right: 10%;
-    align-items: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    border: 1px solid black;
     
 }
 
 .contactanosH3A h3 {
-    margin: 20px; 
+    margin: 10%; 
+    text-align: center;
 }
 
 .contactanosTextoA p {
+    font-size: large;
     text-align: center;
     padding-top: 5%;
     padding-bottom: 5%;
 }
 
 .formularioParte2A {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
+    width: 100%;
 
 }
 
@@ -2001,7 +2046,7 @@ main{
 .formularioNombreA {
     display: flex;
     flex-direction: column;
-    margin-right: 10%;
+    padding-right: 20%;
 
 }
 
@@ -2031,6 +2076,9 @@ main{
     padding-right: 100%;
 }
 
+/* -----formulario segunda parte ------
+ */
+
 
 
 
@@ -2041,13 +2089,26 @@ main{
 
 
 .ContactoFormularioA input {
+    width: 100%;
     border: 0;
-    margin: 2%;
-    padding: 20px;
-    outline: none;
     background:#D9D9D9;
     font-size: 15px;
-    height: 15%;
+    height: 3rem;
+   
+}
+
+.emaiInputA input {
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: start;
+    
+    
+}
+
+.telefonoInputA input {
+    width: 100%;
+    
 }
 
 .ContactoFormularioA button {
@@ -2064,7 +2125,31 @@ main{
 .textareaFormularioA {
     resize: none;
     width: 100%;
+    background-color: #D9D9D9;
 }
+
+.emailH3A {
+    padding-top: 5%;
+}
+
+.telefonoH3A {
+    padding-top: 5%;
+}
+
+.mensajeH3A {
+    padding-top: 5%;
+}
+
+.botonFormularioA {
+    padding-top: 5%;
+
+}
+
+.botonFormularioA button {
+    width: 100%;
+}
+
+
 
 
 
@@ -3216,7 +3301,7 @@ padding-top: 15px;
 
 
 /* Parte inferior (parte de la cuenta de atras) */
-.contenedorCuentaAtras_JI{grid-row:auto;
+#contenedorCuentaAtras_JI{grid-row:auto;
 
 }
 
@@ -3286,11 +3371,20 @@ padding-top: 15px;
 
 .titulo_JI{font-size: 1rem;}
 
-.contenedorCuentaAtras_JI{flex-wrap: wrap;}
+#contenedorCuentaAtras_JI{flex-wrap: wrap;}
     
-.contenerPequeñoCa_JI{  width: 30%;
-                        
-                     }
+#contenedorDiasJi{
+    width: 30%;
+}
+#contenedorHorasJi{
+    width: 30%;
+}
+#contenedorMinutosJi{
+    width: 30%;
+}
+#contenedorSegundosJi{
+    width: 30%;
+}
                     
 
 
