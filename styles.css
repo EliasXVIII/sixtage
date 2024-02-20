@@ -1382,22 +1382,23 @@ main{
 /*   items productos */
 
 .contenedor-items{
-    border: black solid;
+    /* border: black solid; */
     display: grid;
     grid-template-columns:repeat(4, 1fr);
     gap: 20px;
+    padding: 5rem;
 }
 
 .item{
- 
+   
     border-radius: 10px;
-    border: solid red;
+   /*  border: solid red; */
 
 }
 
 .item img{
 
-  border: solid purple;
+  
     width: 100%;
     height: 100%;
     /*adapta la imagen objec*/
