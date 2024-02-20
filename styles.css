@@ -825,7 +825,7 @@ main{
     font-weight: 700;                 
 }
 
-#contenedorMinutosJi p {padding-bottom:0.5rem ;
+#contenedorMinutosJi p {padding-bottom:0.5rem;
                        }
 
 #contenedorSegundosJi{
@@ -843,7 +843,7 @@ main{
     font-weight: 700;                  
 }
 
-#contenedorSegundosJi{padding-bottom: 0.5rem;
+#contenedorSegundosJi p{padding-bottom: 0.5rem;
                      }
 
 
