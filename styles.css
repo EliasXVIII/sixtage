@@ -1419,7 +1419,7 @@ main{
     flex-direction: column;
     gap: 10px;
 }
-.infoproduct .btnañadir{
+.infoproduct .btnadd{
     border: none;
     background: none;
     background-color: black;
