@@ -789,6 +789,10 @@ main{
     font-weight: 700;
     border-radius: 5%;                 
 }
+
+#contenedorDiasJi p{padding-bottom: 0.5rem;
+                   }
+
 #contenedorHorasJi{
     height: 8rem;
     width: 14%;
@@ -803,6 +807,9 @@ main{
     border-radius: 5%;
     font-weight: 700;                
 }
+#contenedorHorasJi p{padding-bottom: 0.5rem;
+                    }
+
 #contenedorMinutosJi{
     height: 8rem;
     width: 14%;
@@ -817,6 +824,10 @@ main{
     border-radius: 5%; 
     font-weight: 700;                 
 }
+
+#contenedorMinutosJi p {padding-bottom:0.5rem ;
+                       }
+
 #contenedorSegundosJi{
     height: 8rem;
     width: 14%;
@@ -831,6 +842,10 @@ main{
     border-radius: 5%; 
     font-weight: 700;                  
 }
+
+#contenedorSegundosJi{padding-bottom: 0.5rem;
+                     }
+
 
 /* las palabras de día, hora, minutos y segundo */
 #contenerPequeñoCa_JI p { 
