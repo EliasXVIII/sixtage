@@ -776,7 +776,8 @@ main{
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
 
 #contenedorDiasJi{
-    width: 15%;
+    height: 5rem;
+    width: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -788,7 +789,8 @@ main{
     border-radius: 5%;                 
 }
 #contenedorHorasJi{
-    width: 15%;
+    height: 5rem;
+    width: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -800,7 +802,8 @@ main{
     border-radius: 5%;                
 }
 #contenedorMinutosJi{
-    width: 15%;
+    height: 5rem;
+    width: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -812,7 +815,8 @@ main{
     border-radius: 5%;                  
 }
 #contenedorSegundosJi{
-    width: 15%;
+    height: 5rem;
+    width: 14%;
     display: flex;
     justify-content: center;
     align-items: center;
