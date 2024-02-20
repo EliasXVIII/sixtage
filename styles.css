@@ -776,7 +776,7 @@ main{
 /* Contenedor individual  donde vienen los días, las horas, los minutos y los segundos */
 
 #contenedorDiasJi{
-    height: 5rem;
+    height: 8rem;
     width: 14%;
     display: flex;
     justify-content: center;
@@ -786,10 +786,11 @@ main{
     margin: 2rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
+    font-weight: 700;
     border-radius: 5%;                 
 }
 #contenedorHorasJi{
-    height: 5rem;
+    height: 8rem;
     width: 14%;
     display: flex;
     justify-content: center;
@@ -799,10 +800,11 @@ main{
     margin: 2rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    border-radius: 5%;                
+    border-radius: 5%;
+    font-weight: 700;                
 }
 #contenedorMinutosJi{
-    height: 5rem;
+    height: 8rem;
     width: 14%;
     display: flex;
     justify-content: center;
@@ -812,10 +814,11 @@ main{
     margin: 2rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    border-radius: 5%;                  
+    border-radius: 5%; 
+    font-weight: 700;                 
 }
 #contenedorSegundosJi{
-    height: 5rem;
+    height: 8rem;
     width: 14%;
     display: flex;
     justify-content: center;
@@ -825,7 +828,8 @@ main{
     margin: 2rem;
     margin-bottom: 2rem;
     font-size: 1.5rem;
-    border-radius: 5%;                   
+    border-radius: 5%; 
+    font-weight: 700;                  
 }
 
 /* las palabras de día, hora, minutos y segundo */
