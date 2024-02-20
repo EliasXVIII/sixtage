@@ -3,5 +3,5 @@ document.querySelector("#muestraFormularioA").addEventListener("click",function(
 });
 
 document.querySelector(".formularioPopUpA .botonCerrarPopupA").addEventListener("click",function(){
-    document.querySelector(".popup").classList.remove("active");
+    document.querySelector(".formularioPopUpA").classList.remove("active");
 });
