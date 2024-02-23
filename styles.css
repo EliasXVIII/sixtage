@@ -2017,10 +2017,10 @@ main{
 /* .formularioA {
     width: 100%;
     height: 100%;
-    background: black; */
-/*     display: flex;
-    justify-content: center; */
-/* } */
+    background: black;
+    display: flex;
+    justify-content: center;
+} */
 
 .ContactoFormularioA {
     background: white;
@@ -2132,7 +2132,7 @@ main{
     
 }
 
-.ContactoFormularioA button {
+.botonFormularioA button {
     padding: 15px;
     background:#D9D9D9;
     color: black;
@@ -2176,14 +2176,16 @@ main{
 
 .formularioPopUpA {
     position: absolute;
-    /* top: -150%; */
+    top: -150%;
     left: 50%;
-    opacity: 0;
+    opacity: 2;
     transform:translate(-50%,-50%) scale(1.25);
     width: 90%;
-    transition:top 0ms ease-in-out 200ms,
- /*                opacity 200ms ease-in-out 0ms,
+    padding-top: 50%;
+    /* transition: top 0ms ease-in-out 200ms,
+                opacity 200ms ease-in-out 0ms,
                 transform 20ms ease-in-out 200ms; */
+    
                 
 
 }
@@ -2193,18 +2195,12 @@ main{
     opacity: 1;
     transform:translate(-50%,-50%) scale(1);
 
-    transition:top 0ms ease-in-out 0ms,
-    /* opacity 200ms ease-in-out 0ms,
-    transform 20ms ease-in-out 200ms; */
+    transition: top 0ms ease-in-out 0ms,
+                opacity 200ms ease-in-out 0ms,
+                transform 20ms ease-in-out 200ms;
 
 }
 
-.formularioPopUpA .botonCerrarPopupA {
-    position: absolute;
-    top: 10px;
-
-
-}
 
 
 
