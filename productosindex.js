@@ -28,15 +28,20 @@ const carroTotal = document.querySelector ('.total-carrito');
 listaDeProductos.addEventListener ('click', e => {
     if(e.target.classList.contains('btnadd')){
     const producto = e.target.parentElement;
+    
 
     const infoProducto = {
         quantity:1,
-        title: producto.querySelector ('h2').texContent,
-        price: producto.querySelector ('p').texContent,
+        title: producto.querySelector('h2').textContent,
+        price: producto.querySelector('p').textContent,
     };
+
+    console.log(infoProducto)
     const exits = productosTodos.some(
         producto => producto.title === infoProducto.title
     );
+    console.log(exits)
+    
     
     if (exits){
         const productos = productosTodos.map(producto => {
@@ -105,10 +110,11 @@ columnaCarro.addEventListener ('click', (e) => {
 
         columnaCarro.append(contenedorproducto);
         total = 
-            total + parseInt(producto.quantity * producto.price);
+            total + parseInt(producto.quantity * producto.price.slice(1));
+            console.log(total)
             totalDeProductos = totalDeProductos + producto.quantity;
     });
-         valorTotal.innerText =` $$ {total}`;
+         valorTotal.innerText =`$ ${total}`;
          contadorProductos.innerText = totalDeProductos;
 };
 
