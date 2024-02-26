@@ -24,7 +24,7 @@ productos.forEach((product) => {
 
     comprar.addEventListener("click", ()=>{
         const repeat = carrito.some((repeatProduct) => repeatProduct.id === product.id);
-        
+        alert("¡Has añadido un producto al Carrito!")
         if(repeat){
             carrito.map((prod)=>{
                 if(prod.id === product.id){

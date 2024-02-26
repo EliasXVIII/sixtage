@@ -12,7 +12,7 @@ btnCart.addEventListener('click', ()=>{
 const carroInfo = document.querySelector('.carroproducto');
 const columnaCarro = document.querySelector('.columnacarro');
 
-/* lista de contenedores de productos */
+/* lista de contenedorprodes de productos */
 const listaDeProductos = document.querySelector('.contenedor-items')
 
 /* variable de arreglo de productos */
