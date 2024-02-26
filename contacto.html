@@ -102,7 +102,7 @@
     <main>
 
 
-        <div class="mainContactoBA">
+        <div class="mainContactoBA" id="blurA">
 
             <div class="contactoLogoBotonA">
 
@@ -127,7 +127,9 @@
                             </p>
                         </div>
                         <div class="contactoBotonA">
-                            <button id="muestraFormularioA" class="contactoBoton1A">Contáctanos</button>
+                            <!-- <button href="#" onclick="toggle() id="muestraFormularioA" class="contactoBoton1A">Contáctanos</button> -->
+                            <!-- <a href="#" onclick="toggle()">Readmore</a> -->
+                            <button href="#" onclick="toggle()">Contactanos</button>
                         </div>
                     </div>
 
@@ -136,7 +138,7 @@
                 <div class="contactoDerechaA">
 
                     <div class="botonPruebaGratisA">
-                            <button class="botonPruebaGratis1A">Gratis Email</button> 
+                            <button class="botonPruebaGratis1A">Suscribete a nuestro Emai</button> 
 
                             <!--<button type="button" class="pheasant-demure-button solid dark round-corner">
                             <span class="label">Gratis email</span>
@@ -148,10 +150,15 @@
                         <img class="contactoImagen1A" src="/img/imagen_contacto.webp" alt="">
                     </div>
 
+                   
+
                 </div>
+
+                
 
             </div>
 
+            <!-- <a href="#" onclick="toggle()">Readmore</a> -->
 
         </div>
 
@@ -164,23 +171,22 @@
 
 
 
+    <div class="popupA" id="popupBA">
 
-    <div class="formularioPopUpA">
+        <!-- <div class="formularioPopUpA"> -->
 
-        <div class="formularioA">
-
-            
+        <div class="formularioA"> 
         
-             <div class="ContactoFormularioA">
+            <div class="ContactoFormularioA">
 
-                <div class="formularioParte1A">
+            <div class="formularioParte1A">
                     <div class="contactanosH3A"><h3>Contactanos</h3></div>
                     <div class="contactanosTextoA"><p>Comencemos esta conversación. Cuéntanos 
                         un poco sobre tí y nos pondremos en 
                         contacto tan pronto como podamos.</p></div>
                     </div>
         
-            <div class="formularioParte2A">
+                <div class="formularioParte2A">
                 <form action="">
                 <div class="nombreApellidoA">
                     <div class="formularioNombreA">
@@ -201,26 +207,42 @@
                     <div class="mensajeH3A"><h3>Mensaje:</h3></div>
                         <div><textarea class="textareaFormularioA" rows="10"  id="message" placeholder="En que te podemos ayudar?"></textarea></div>
     
-                    <div class="botonFormularioA"><button type="submit">Enviar</button></div>
+                    <div class="botonFormularioA">
+                        <button action="submit.php" method="post" type="submit">Enviar</button>
+                        <!-- <button href="#" onclick="toggle()" type="submit">Enviar</button> -->
+                        <!-- <a href="#" onclick="toggle()">Cerrar</a> -->
+                    </div>
+                    
+                    <div class="botonFormularioCerrarA">
+                        <button href="#" onclick="toggle()">Cerrar</button>
+                    </div>
+
+
 
     
                     </div>
 
                 </form>
 
-                <div class="botonCerrarPopupA"><button>cerrar</button></div>
+                <!-- <div id="botonCerrarPopupA" class="botonCerrarPopupA"><button>cerrar</button></div> -->
                 
                  
                 
     
-            </div>
+                </div>
         
-        </div>
+            </div>
             
         
         </div>
 
+        <!-- <a href="#" onclick="toggle()">Close</a> -->
+
+       
+         <!-- </div> -->
+
     </div>
+<div>
 
 
 
