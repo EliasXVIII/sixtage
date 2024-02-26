@@ -11,7 +11,6 @@
 
 </head>
 <body>
- <!--   esto es una prueba --> 
     <header class="headerlou">
         <div class="logo_buscar">
     
@@ -31,50 +30,35 @@
         </div>
     
         <div class="nombretienda"><img src="logo+iconos/SIXTAGE.svg" alt=""></div>
-
-   <!--  empieza carro -->
-     <div class="log_fav_carro">
-        <div class="login">
-            <a href="acceso.html"><img src="logo+iconos/Vector.svg" alt=""></a>
+    
+    <div class="log_fav_carro">
+    
+        <div id="btnAccesoJ" class="login">
+            <a href="acceso.html">
+                <img src="logo+iconos/Vector.svg" alt="">
+            </a>
         </div>
-        <div class="favorito"><img src="logo+iconos/heart.svg" alt="">
+    
+        <div class="favorito">
+            <img src="logo+iconos/heart.svg" alt="">
         </div>
-        <div class="contenedorcarroicono">
-            <img src="logo+iconos/carrocompra.svg" alt="">
+    
+        <div class="carro">
+            <!-- <img src="logo+iconos/carrocompra.svg" alt=""> -->
+            <p class="ver-carrito" id="verCarrito"> <img src="logo+iconos/carrocompra.svg" alt=""> <span id="cantidadCarrito" class="cantidad-carrito"></span></p>
         </div>
-                <div class="contadorproductos">
-                <span id="contadorproductos" >0</span>
-                </div>   
-             
-      <div class="contenedorcarroproducto" class="hiddencarro">
-        <div class="columnacarro">
-            <!-- <div class="carroproducto">
-                <div class="infocarroproducto">
-                   <span class="cantidad-producto-carrito">1</span>
-                   <p class="titulo-info-carrito">zapatos</p>
-                  <span class="precio-producto-carrito">80$</span>
-                </div>
-                <img class="iconocruz" src="logo+iconos/cruz.svg" alt="">
+        <!-- <p class="ver-carrito" id="verCarrito"><img src="logo+iconos/carrocompra.svg" alt=""><span id="cantidadCarrito" class="cantidad-carrito"></span></p> -->
         
-            </div> -->       
-        </div> 
-
-
-
-        <div class="carrototalhidden">
-
-            <div class="total-carrito">
-            <h3>total</h3>
-            <span class="total-pagar">200€</span>
-            </div>
-            <p class="carrovacio"></p>
-        </div>
-
     </div>
-</div>
-</header>
-
-
+    
+    </header>
+    
+    
+    
+    
+    
+    
+    
     <nav>
         
         <div class="principalNavE">
@@ -121,63 +105,21 @@
 
 
 <main>
-
 <!-- desde aquí items productos -->
 
-<div class="contenedor-items">
+<!-- <p class="ver-carrito" id="verCarrito">carrito <span id="cantidadCarrito" class="cantidad-carrito"></span></p> -->
 
-    <div class="item">
-        <figure><img src="img/baskets-amcqueen.jpg" alt=""></figure>
-        <div class="infoproduct">
-            <h2>Zapatillas blancas</h2>
-            <p>20$</p>
-     
-        <button class="btnadd">Añadir</button></div>
-    </div>
+<!-- Aca esta el shop -->
 
-    <div class="item">
-            <figure><img src="img/chemise-bbui.jpg" alt=""></figure>
-            <div class="infoproduct">
-                <h2>Camisa seda </h2>
-                <p>90$</p>
-                <button class="btnadd">Añadir</button></div>
-    </div>
+    <div id="shopContent" class="shop-content"></div>
 
-    <div class="item">
-                <figure><img src="img/bottes-balenciaga.jpg" alt=""></figure>
-                <div class="infoproduct">
-                    <h2>Botas</h2>
-                    <p>79$</p>
-                    <button class="btnadd">Añadir</button></div>
-    </div>
+<!-- Aca ppongo el modal Container Tarjeta de carrito -->
 
-    <div class="item">
-                    <figure><img src="img/jupe-balmain.jpg" alt=""></figure>
-                    <div class="infoproduct">
-                        <h2>Falda denim</h2>
-                        <p>40$</p>
-                        <button class="btnadd">Añadir</button></div>
-     </div>
+    <div id="modal-container" class="modal-container"></div>
 
-     <div class="item">
-                        <figure><img src="img/tee-shirt-ami.jpg" alt=""></figure>
-                        <div class="infoproduct">
-                            <h2>Camiseta</h2>
-                            <p>25$</p>
-                            <button class="btnadd">Añadir</button></div>
-     </div>
-
-     <div class="item">
-                         <figure><img src="img/cabas-acne.jpg" alt=""></figure>
-                         <div class="infoproduct">
-                             <h2>Bolso denim</h2>
-                             <p>40$</p>
-                             <button class="btnadd">Añadir</button></div>
-     </div>
-
-
-    
-</div>
+    <script src="/js/carrito.js"></script>
+    <script src="/js/products.js"></script>
+    <script src="/js/app.js"></script>
 
 
 
