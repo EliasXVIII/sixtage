@@ -1827,20 +1827,16 @@ font-family: Arial, Helvetica, sans-serif;
     align-items: center;
 }
 
-.contactoBotonA {
-    margin-bottom: 10%;
-
-}
-
 .contactoTxtBtnA p {
     margin: 10%;
     font-size: x-large;
 }
 
-.contactoBotonA {
+/* .contactoBotonA {
     width: 100%;
+    margin-bottom: 10%;
 
-}
+} */
 
 .contactoBoton1A {
 /*     width: 30%;
@@ -2183,22 +2179,38 @@ font-family: Arial, Helvetica, sans-serif;
     user-select: none;
 }
 
+.contactoBotonA {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
+
+
+}
+
 .contactoBotonA button {
-    position: relative;
+/*     width: 100%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    margin-right: 10%; */
+    /* width: 100%; */
+/*     position: relative;
     padding: 5px 20px;
     display: inline-block;
-    margin-top: 20px;
     text-decoration: none;
     color: #fff;
     background: rgb (134,43,43);
     transition: 1s;
-    background-color: #333;
+    background-color: #333; */
 }
 
-.botonFormularioA:hover{
+/* .botonFormularioA:hover{
     transition: 1s;
     background: #2b5c59;
-}
+} */
 
 #popupBA{
     position: fixed;
@@ -2207,7 +2219,7 @@ font-family: Arial, Helvetica, sans-serif;
     transform: translate(-50%,-50%);
     /* width: 600px; */
     /* padding: 50px; */
-    box-shadow: 0 5px 30px rgba(0, 0, 0, .30);
+    /* box-shadow: 0 5px 30px rgba(0, 0, 0, .30); */
     /* background: #fff; */
     visibility: hidden;
     opacity: 0;
