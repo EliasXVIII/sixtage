@@ -3229,6 +3229,12 @@ padding-top: 15px;
                              align-items: center;
                            }
 
+.MainDescripcionProducto_JI .contenedorDescripciones_JI {
+border: solid black 2px;
+width: 800%;
+height: 100%;
+}                         
+
 /* Parte del titulo de las paginas */
 .tituloDescripcion_JI{ display: flex;
                        width: 100%;
