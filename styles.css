@@ -3450,6 +3450,7 @@ height: 100%;
     font-size: 3rem;
 }
 
+
 }
 
 
@@ -3658,7 +3659,24 @@ height: 100%;
 #contenedorSegundosJi{
     width: 30%;
 }
-                    
+
+/*------------contacto-------------*/
+
+.contactoLogoBotonA{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contactoIzquierdaA{
+    width: 80%;}
+.contactoTxtBtnA{
+    width: 80%;
+}
+.contactoTextoA{
+    width: 100%;}
+.botonDireccionA{
+    width: 100%;}
 
 }
 
