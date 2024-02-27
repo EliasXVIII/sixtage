@@ -37,9 +37,13 @@ Javascript, HTML, CSS, Visual Studio Code, GitHub, trello, Linux Mint, Canva, Fi
 - [@Andres-451](https://github.com/Andres-451) - Product Owner y Desarrollador Web
 - [@l6898](https://github.com/l6898) - Desarrolladora Web
 - [@rayanst86](https://github.com/rayanst86) - Desarrollador Web
+  
+## Linkedin
 
 - ## :arrow_right: https://www.linkedin.com/in/elias-javier-riquelme-b62655297/
 - ## :arrow_right: www.linkedin.com/in/jonathan-ibańez-perez
+- ## :arrow_right: https://www.linkedin.com/in/jesus-david-romero160/
+- ## :arrow_right https://www.linkedin.com/in/andres-echeverry-garcia/
 
 ## Inicio Rápido
 Para ver este proyecto localmente, sigue estos pasos:
