@@ -56,5 +56,18 @@ const productos = [
         img: "/imgproductos/tacones.jpg",
         cantidad: 1,
     },
+    {
+        id: 9,
+        nombre: "Tacones", 
+        precio: 40,
+        img: "/imgproductos/tacones.jpg",
+        cantidad: 1,
+    },{
+        id: 10,
+        nombre: "Tacones", 
+        precio: 40,
+        img: "/imgproductos/tacones.jpg",
+        cantidad: 1,
+    },
    
 ];
