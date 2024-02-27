@@ -2091,7 +2091,7 @@ margin-left: 1rem;
     background: none;
     display: flex;
     justify-content: center;
-    transform: scale(0.8);
+    transform: scale(0.7);
 
 
 }
@@ -3419,8 +3419,19 @@ padding-top: 15px;
 
 
 
+/*  POPUP */
+
+@media screen and (max-width: 1384px) {
+    .popupDerechaA img {
+        width: 50%;
+    }
+
+    .popupIzquierdaA {
+        width: 50%;
+    }
 
 
+}
 
 
 
@@ -3442,6 +3453,8 @@ padding-top: 15px;
 
 
 /* TABLET */
+
+
 @media screen and (max-width: 950px) {
    
     .menuNavE{
@@ -3630,7 +3643,7 @@ padding-top: 15px;
 
 
 
-}
+
 
 
 
