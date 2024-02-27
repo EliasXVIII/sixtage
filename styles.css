@@ -3669,14 +3669,40 @@ height: 100%;
 }
 
 .contactoIzquierdaA{
-    width: 80%;}
+    width: 80%;
+}
 .contactoTxtBtnA{
     width: 80%;
 }
 .contactoTextoA{
-    width: 100%;}
+    width: 100%;
+}
 .botonDireccionA{
-    width: 100%;}
+    width: 100%;
+}
+
+
+/*---------------pop up-------------*/
+
+.popupMainA{
+    justify-content: center;
+    align-items: center;
+    background-color:   #ccb48c ;
+
+}
+.popupDerechaA{
+    with:100%;
+    height: 200%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.popupDerechaA img {
+    width: 100%;
+    height: 200%;
+    
+}
 
 }
 
@@ -4137,7 +4163,17 @@ height: 100%;
 
 
 
-    .popupDerechaA{display: none;}
+    .popupDerechaA{
+        display: none;
+    }
+
+    .popupMainA{
+        background-color:#daddd9 ;
+    }
+    .popupIzquierdaA{
+        width: 80%;
+    }
+
 }  
 
 
