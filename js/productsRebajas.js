@@ -1,15 +1,15 @@
 const productos  = [
     {   id: 20,
-        nombre: "REBAJAS", 
+        nombre: "Vestido Lunares", 
         precio: 100,
-        img: "/img/zapatos.jpg",
+        img: "/imgRebajas/rebaja1.png",
         cantidad: 1,
     },
     {
         id: 21,
-        nombre: "REBAJAS",
+        nombre: "Camisa Cuadros",
         precio: 50,
-        img: "/img/pantalon.jpg",
+        img: "/imgRebajas/rebaja2.png",
         cantidad: 1,
     
     },
