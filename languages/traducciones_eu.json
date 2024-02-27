@@ -26,5 +26,13 @@
     "inicia": "Saioa hasi",
     "carrito": "Erosketako saskia",
     "seguir": "EROSKETA JARRAITU",
-    "iniciaRegistrar": "HASI SAIOA EDO ERREGISTRATU"
+    "iniciaRegistrar": "HASI SAIOA EDO ERREGISTRATU",
+    "descripcionProducto": "Produktuaren Deskribapena",
+    "PoliticaEntrega": "Entregaren Politika",
+    "entregaStandar": "Etxera 3-6 lanegunetan barneko Entrega Estandarra.",
+    "entregaExpress": "Espressua 48 orduko gehienez Penintsulan barruan",
+    "recogidaTienda": "Dendan jasotzea: Eskatutako dendetara bidaliko da gure establezimenduetan.",
+    "tituloDevoluciones": "Itzulketen Politika",
+    "Devoluciones": "15 egun gauzatzea, banaketa eta trukaketa prozesu erraz eta azkarra burutzeko."
+    
 }
