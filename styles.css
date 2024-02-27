@@ -89,7 +89,8 @@
     width: 1.5rem;
     margin: .5rem;
     cursor: pointer;
-}/* aqui va a romper */
+}
+
 .carro img {
     width: 1.5rem;
     margin: .5rem;
@@ -4072,6 +4073,8 @@ padding-top: 15px;
     
     }
 
+    
+    
 
 
 }  

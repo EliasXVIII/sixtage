@@ -26,7 +26,15 @@
     "inicia": "Iniciar Sesión",
     "carrito": "Carrito de Compra",
     "seguir": "SEGUIR COMPRANDO",
-    "iniciaRegistrar": "INICIAR SESIÓN O REGISTRARSE"
+    "iniciaRegistrar": "INICIAR SESIÓN O REGISTRARSE",
+    "descripcionProducto": "Descripción del Producto",
+    "PoliticaEntrega": "Politica de Entrega",
+    "entregaStandar": "Entrega Standar a domicilio en un plazo de 3-6 días laborables.",
+    "entregaExpress": "Entrega Express en un plazo máximo de 48 horas dentro de la PENINSULA",
+    "recogidaTienda": "Recogida en tienda: Se mandara a la tienda que solicites dentro de nuestros establecimientos.",
+    "tituloDevoluciones":"Politica de Devoluciones",
+    "Devoluciones": "14 días a partir de la entrega para realizar el rápido y sencillo proceso de devolución y cambio."
+    
 
   }
   
