@@ -1317,20 +1317,23 @@ max-width: 20rem;
 margin: auto;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 2rem;
 }
 
 .card img{
-    width: 12rem;
-    height: 10rem;
+    width: 18rem;
+    height: 16rem;
+    cursor: pointer;
+    
 }
 
 .price{
     color: grey;
-    font-size: 10r;
+    
 }
 
 .card button{
-
+   
     border: none;
     outline: 0;
     padding: 1rem;
@@ -1380,7 +1383,12 @@ font-family: Arial, Helvetica, sans-serif;
     justify-content: space-around;
     background-color: #0a0909;
     color: #fff;
-    width: 100%;
+    width: 80%;
+    padding: 1rem 0 0.5rem 0;
+    position: fixed;
+    z-index: 9;
+    top: 2rem;
+    height: 5rem;
 }
 
 .modal-header-title{
@@ -1406,10 +1414,12 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .total-content {
-    font-size: 25px;
+    font-size: 2rem;
+    font-weight: bold;
     padding: 20px;
     text-align: center;
     padding-top: 20px;
+    border: solid 0.2rem;
 }
 
 .ver-carrito{
@@ -1436,11 +1446,36 @@ font-family: Arial, Helvetica, sans-serif;
 }
 
 .restar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    width: 1rem;
+    height: auto;
+    
 }
 
 .sumar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
+    width: 1rem;
+    height: auto;
+    
+}
+
+.pagar-total{
+    margin-left: 2rem;
+    border: none;
+    background-color: white;
+    color: black;
+    width: 4rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
 }
 
 
@@ -3997,7 +4032,6 @@ padding-top: 15px;
     align-items: center;
     
     }
-
 
 
 

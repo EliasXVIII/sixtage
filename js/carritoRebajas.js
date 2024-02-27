@@ -7,12 +7,12 @@ const pintarCarrito = () => {
     modalContainer.style.display = "flex";
     const modalHeader = document.createElement("div");
     modalHeader.className = "modal-header";
-    modalHeader.innerHTML = `<h1 class="modal-header-title">MI CARRITO</h1>`;
+    modalHeader.innerHTML = `<h1 class="modal-header-title">Carrito.</h1>`;
 
     modalContainer.append(modalHeader);
 
     const modalbutton = document.createElement("h1")
-    modalbutton.innerText = "X";
+    modalbutton.innerText = "x";
     modalbutton.className = "modal-header-button";
 
 
@@ -80,7 +80,7 @@ const pintarCarrito = () => {
 
     const totalBuying = document.createElement("div")
     totalBuying.className = "total-content";
-    totalBuying.innerHTML=`Total a pagar:  ${total} € <button class="pagar-total"> Pagar </button>`;
+    totalBuying.innerHTML=`Total a pagar:  ${total} €`;
     modalContainer.append(totalBuying)
 };
 
