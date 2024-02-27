@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+    <script src="/idiomas.js"></script>
 
 </head>
 
@@ -53,16 +54,16 @@
         
         <div class="principalNavE">
     
-            <button class="abrirMenuE" id="abrir">Abrir</button>
+            <button class="abrirMenuE" id="abrir" data-i18n="Abrir">Abrir</button>
     
             <div class="menuNavE" id="nav">
                 
-                <a href="/index.html"><button>Inicio</button></a>
-                <a href="/quienesSomos.html"><button>Conócenos</button></a>
-                <a href="/rebajas.html"><button>Rebajas</button></a>
-                <a href="/productos.html"><button>Productos</button></a>
-                <a href="/contacto.html"><button>Contacto</button></a>
-                <button class="cerraMenuE" id="cerrar">Cerrar</button>
+                <a href="/index.html"><button data-i18n="inicio">Inicio</button></a>
+                <a href="/quienesSomos.html"><button data-i18n="conocenos">Conócenos</button></a>
+                <a href="/rebajas.html"><button data-i18n="rebajas">Rebajas</button></a>
+                <a href="/productos.html"><button data-i18n="productos">Productos</button></a>
+                <a href="/contacto.html"><button data-i18n="contacto">Contacto</button></a>
+                <button class="cerraMenuE" id="cerrar" data-i18n="cerrar">Cerrar</button>
                
             </div>
         </div>
@@ -72,8 +73,8 @@
         <div class="secundarioNavE">
     
             <div class="idiomasNavE">
-                <a href=""><button>ES </button></a>
-                <a href=""><button>EN </button></a>
+                <a href="#"><button onclick="cambiarIdioma('es')" id="botonCastellano">ES </button></a>
+                <a href="#"><button onclick="cambiarIdioma('en')"  id="botonIngles">EN </button></a>
                 <!-- <a href=""><button>EU &nbsp</button></a> -->
             </div>
     
@@ -81,8 +82,8 @@
             </div>
     
             <div class="idiomasNavTabletE">
-                <a href=""><button>ES </button></a>
-                <a href=""><button>EN </button></a>
+                <a href="#"><button onclick="cambiarIdioma('es')"  id="botonCastellano" >ES </button></a>
+                <a href="#"><button onclick="cambiarIdioma('en')" id="botonIngles" >EN </button></a>
                 <!-- <a href=""><button>EU </button></a> -->
             </div>
         </div>
@@ -97,7 +98,7 @@
     <main class="MainDescripcionProducto_JI">
             <!-- Titulo del carrito -->
             <div class="tituloDescripcion_JI">
-                <h1><Strong>Carrito de Compra</Strong></h1>
+                <h1 data-i18n="carrito"><Strong>Carrito de Compra</Strong></h1>
             </div>
             <!-- En el div de abajo es donde iria la parte de js
             que trae los productos correspondiente al pincharlo y enviarlos al 
@@ -110,12 +111,12 @@
 
             <!-- los botones correspondientes a seguir comprando e iniciar sesion o registrarse -->
             <div class="botonesCarrito_JI">
-                <a href="/productos.html"><button>SEGUIR COMPRANDO</button></a>
-                <a href="/acceso.html"><button>INICIAR SESIÓN O REGISTRARSE</button></a>
+                <a href="/productos.html"><button data-i18n="seguir">SEGUIR COMPRANDO</button></a>
+                <a href="/acceso.html"><button data-i18n="iniciaRegistrar">INICIAR SESIÓN O REGISTRARSE</button></a>
 
             </div>
              <!-- Muestra al cliente los iconos por los cuales puedes pagar en la página correspondiente            -->
-                <h3>Metodo de Pago</h3>
+                <h3 data-i18n="metodosPago">Metodo de Pago</h3>
                 <div>
                     <img src="/img/Visa.svg" alt="">
                     <img src="/img/Maestro.svg" alt="">
@@ -158,7 +159,7 @@
 
         <div class="footerDerJ">
             <div class="textoMetodoPagoJ">
-                <p>Métodos de pago</p>
+                <p data-i18n="metodosPago">Métodos de pago</p>
             </div>
             <div class="iconosMetodoPagoJ">
                 <img src="/img/Visa.svg" alt="">
@@ -174,7 +175,7 @@
 
     <div class="copyrightJ">
 
-        <p> © 2024 - Derechos de autor de Sixtage -</p>
+        <p data-i18n="DerechosAutor"> © 2024 - Derechos de autor de Sixtage -</p>
 
     </div>
 
