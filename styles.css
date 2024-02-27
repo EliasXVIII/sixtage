@@ -1318,10 +1318,12 @@ margin: auto;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 margin-bottom: 2rem;
+margin-right: 1rem;
+margin-left: 1rem;
 }
 
 .card img{
-    width: 18rem;
+    width: 16rem;
     height: 16rem;
     cursor: pointer;
     

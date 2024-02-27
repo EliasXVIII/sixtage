@@ -1,8 +1,8 @@
 const productos = [
     {   id: 1,
-        nombre: "Zapatillas", 
+        nombre: "Conjunto", 
         precio: 100,
-        img: "/img/zapatos.jpg",
+        img: "/imgproductos/camisapatch.jpg",
         cantidad: 1,
     },
     {
@@ -15,9 +15,9 @@ const productos = [
     },
     {
         id: 3,
-        nombre: "Camiseta", 
+        nombre: "Calcetines", 
         precio: 30,
-        img: "/img/camiseta.jpg",
+        img: "/imgproductos/calcetines.jpg",
         cantidad: 1,
     
     },
@@ -37,7 +37,7 @@ const productos = [
     },
     {
         id: 6,
-        nombre: "Camiseta cuello azul", 
+        nombre: "Camiseta azul", 
         precio: 40,
         img: "/imgproductos/camisetacuelloazul.jpg",
         cantidad: 1,
@@ -64,9 +64,9 @@ const productos = [
         cantidad: 1,
     },{
         id: 10,
-        nombre: "Tacones", 
+        nombre: "Pantalón Azul", 
         precio: 40,
-        img: "/imgproductos/tacones.jpg",
+        img: "/imgproductos/pantalonazul.jpg",
         cantidad: 1,
     },
    
