@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
+        <script src="/idiomas.js"></script>
 
 </head>
 
@@ -52,16 +53,16 @@
 
         <div class="principalNavE">
 
-            <button class="abrirMenuE" id="abrir">Abrir</button>
+            <button class="abrirMenuE" id="abrir" data-i18n="Abrir">Abrir</button>
 
             <div class="menuNavE" id="nav">
 
-                <a href="/index.html"><button>Inicio</button></a>
-                <a href="/quienesSomos.html"><button>Conócenos</button></a>
-                <a href="/rebajas.html"><button>Rebajas</button></a>
-                <a href="/productos.html"><button>Productos</button></a>
-                <a href="/contacto.html"><button>Contacto</button></a>
-                <button class="cerraMenuE" id="cerrar">Cerrar</button>
+                <a href="/index.html"><button data-i18n="inicio">Inicio</button></a>
+                <a href="/quienesSomos.html"><button data-i18n="conocenos">Conócenos</button></a>
+                <a href="/rebajas.html"><button data-i18n="rebajas">Rebajas</button></a>
+                <a href="/productos.html"><button data-i18n="productos">Productos</button></a>
+                <a href="/contacto.html"><button data-i18n="contacto">Contacto</button></a>
+                <button class="cerraMenuE" id="cerrar" data-i18n="cerrar">Cerrar</button>
 
             </div>
         </div>
@@ -71,14 +72,14 @@
         <div class="secundarioNavE">
 
             <div class="idiomasNavE">
-                <a href=""><button>EH /</button></a>
-                <a href=""><button>ES /</button></a>
-                <a href=""><button>EU &nbsp</button></a>
+                <a href="#"><button onclick="cambiarIdioma('es')" id="botonCastellano">ES </button></a>
+                <a href="#"><button onclick="cambiarIdioma('en')"  id="botonIngles">EN </button></a>
+                <!--<a href=""><button>EU &nbsp</button></a>-->
             </div>
             <div class="idiomasNavTabletE">
-                <a href=""><button>EH </button></a>
-                <a href=""><button>ES </button></a>
-                <a href=""><button>EU </button></a>
+                <a href="#"><button onclick="cambiarIdioma('es')" id="botonCastellano">ES </button></a>
+                <a href="#"><button onclick="cambiarIdioma('en')"  id="botonIngles">EN </button></a>
+               <!-- <a href=""><button>EU </button></a>-->
             </div>
         </div>
 
@@ -93,7 +94,7 @@
 
         <!-- Titulo de descripción del producto -->
         <div class="tituloDescripcion_JI">
-            <h1><Strong>Descripción del Producto</Strong></h1>
+            <h1 data-i18n="descripcionProducto"><Strong>Descripción del Producto</Strong></h1>
         </div>
 
         <!-- En el div de abajo es donde iria la parte de js
@@ -110,18 +111,18 @@
 
         <!-- politica de entrega de la empresa -->
             <div class="politicaEntrega_JI">
-                <h3><strong>Politica de Entrega</strong></h3>
-                <p><strong>Entrega Standar</strong> a domicilio en un plazo de 3-6 días laborables.</p>
-                <p><strong>Entrega Express </strong>en un plazo máximo de 48 horas dentro de la
+                <h3 data-i18n="PoliticaEntrega"><strong>Politica de Entrega</strong></h3>
+                <p data-i18n="entregaStandar"><strong>Entrega Standar</strong> a domicilio en un plazo de 3-6 días laborables.</p>
+                <p data-i18n="entregaExpress"><strong>Entrega Express </strong>en un plazo máximo de 48 horas dentro de la
                     <strong>PENINSULA</strong>.</p>
-                <p><strong>Recogida en tienda:</strong> Se mandara a la tienda que solicites dentro de nuestros
+                <p data-i18n="recogidaTienda"><strong>Recogida en tienda:</strong> Se mandara a la tienda que solicites dentro de nuestros
                     establecimientos.</p>
             </div>
 
         <!-- politica de devoluciones -->
             <div class="politicaDevoluciones_JI">
-                <h3><strong>Politica de Devoluciones</strong></h3>
-                <p>Dispones de <strong></strong> 14 días </strong>a partir de la entrega para realizar el rápido y
+                <h3 data-i18n="tituloDevoluciones"><strong>Politica de Devoluciones</strong></h3>
+                <p data-i18n="Devoluciones">Dispones de <strong></strong> 14 días </strong>a partir de la entrega para realizar el rápido y
                     sencillo proceso de devolución y cambio.</p>
             </div>
 
@@ -129,7 +130,7 @@
 
         <!-- metodos de pago que puede el cliente -->
         <div class="metodoDePago_JI">
-            <h3>Metodo de Pago</h3>
+            <h3 data-i18n="metodosPago">Metodo de Pago</h3>
             <div>
                 <img src="/img/Visa.svg" alt="">
                 <img src="/img/Maestro.svg" alt="">
@@ -174,7 +175,7 @@
 
         <div class="footerDerJ">
             <div class="textoMetodoPagoJ">
-                <p>Métodos de pago</p>
+                <p data-i18n="metodosPago">Métodos de pago</p>
             </div>
             <div class="iconosMetodoPagoJ">
                 <img src="/img/Visa.svg" alt="">
@@ -193,7 +194,7 @@
 
     <div class="copyrightJ">
 
-        <p> © 2024 - Derechos de autor de Sixtage -</p>
+        <p data-i18n="DerechosAutor"> © 2024 - Derechos de autor de Sixtage -</p>
 
     </div>
     
