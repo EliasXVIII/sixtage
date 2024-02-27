@@ -89,7 +89,8 @@
     width: 1.5rem;
     margin: .5rem;
     cursor: pointer;
-}/* aqui va a romper */
+}
+
 .carro img {
     width: 1.5rem;
     margin: .5rem;
@@ -1318,10 +1319,12 @@ margin: auto;
 text-align: center;
 font-family: Arial, Helvetica, sans-serif;
 margin-bottom: 2rem;
+margin-right: 1rem;
+margin-left: 1rem;
 }
 
 .card img{
-    width: 18rem;
+    width: 16rem;
     height: 16rem;
     cursor: pointer;
     
@@ -1834,7 +1837,7 @@ margin-bottom: 2rem;
 }
 
 .contactoLogoA img {
-    width: 50%;
+    width: 100%;
     margin-bottom: 5%;
 }
 
@@ -1851,13 +1854,13 @@ margin-bottom: 2rem;
 }
 
 .contactoTxtBtnA {
+    display: flex;
+    flex-direction: column;
     background-color: #FFFFF7;
+    justify-content: center;
     margin: 10%;
-    
-}
-
-.contactoTxtBtnA {
     width: 60%;
+    height: 50%;
     text-align: center;
     align-items: center;
 }
@@ -1866,12 +1869,6 @@ margin-bottom: 2rem;
     margin: 10%;
     font-size: x-large;
 }
-
-/* .contactoBotonA {
-    width: 100%;
-    margin-bottom: 10%;
-
-} */
 
 .contactoBoton1A {
 /*     width: 30%;
@@ -1887,6 +1884,7 @@ margin-bottom: 2rem;
 
 
 .contactoIzquierdaA {
+    width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1897,36 +1895,71 @@ margin-bottom: 2rem;
 .contactoDerechaA {
     display: flex;
     flex-direction: column;
+    /* justify-content: flex-end; */
     width: 100%;
+    justify-content: end;
+    align-items: end;
     
+}
+
+.botonDireccionA {
+    display: flex;
+    /* padding-right: 50%; */
+    justify-content: flex-end;
+    align-items: end;
+    width: 100%;
+
 }
 
 .botonPruebaGratisA {
     display: flex;
-    margin: 8%; 
+    margin: 8%;
 
 }
 
 .botonPruebaGratis1A {
-    width: 15%;
-    height: 4rem;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     border-radius: 5%;
     color: white;
     background-color: black;
     font-size: larger;
-    margin-right: 30%;
+    margin-right: 75%;
+}
+.contactoImagenA{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
 }
 
 
-/* .contactoImagenA {
-    max-width: 100%;
-    max-height: 100%;
-    object-fit: cover;
-
-} */
 
 .contactoImagen1A {
-    justify-content: flex-end;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* justify-content: flex-end; */
+    /* overflow: hidden; */
+    /* width: 100%;
+    height: 100%; */
+}
+
+.direccionVisitaA {
+    background-color: #D8FCB3;
+    font-size: large;
+
+}
+
+.direccionVisita1A {
+    display: flex;
+    width: 30%;
+    padding: 7%;
+    background-color: #D8FCB3;
+    justify-content: end;
+    align-items: end;
+
 }
 
 
@@ -2215,32 +2248,50 @@ margin-bottom: 2rem;
 }
 
 .contactoBotonA {
+    padding: 10%;
+    height: 23%;
+}
+
+.contactoBotonA button {
+    height: 100%;
+    width: 100%;
+    font-size: large;
+    background-color: #89FCB3;
+    border-radius: 7px;
+    border: 2px solid #000;
+}
+
+.botonFormularioCerrarA {
+    display: flex;
     align-items: center;
-    justify-content: center;
+    padding-top: 5%;
+}
+
+.botonFormularioCerrarA button {
+    border: none;
+    background-color: #D9D9D9;
+    padding: 2%;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+/* .contactoBotonA button {
     width: 100%;
     margin-bottom: 10%;
     margin-left: 10%;
     margin-right: 10%;
-    margin-top: 10%;
-
-
-}
-
-.contactoBotonA button {
-/*     width: 100%;
-    margin-bottom: 10%;
-    margin-left: 10%;
-    margin-right: 10%; */
-    /* width: 100%; */
-/*     position: relative;
+    width: 100%;
+    position: relative;
     padding: 5px 20px;
     display: inline-block;
     text-decoration: none;
     color: #fff;
     background: rgb (134,43,43);
     transition: 1s;
-    background-color: #333; */
-}
+    background-color: #333;
+} */
 
 /* .botonFormularioA:hover{
     transition: 1s;
@@ -2306,7 +2357,7 @@ margin-bottom: 2rem;
     display: none;    Initially hidden  
  } */
 
- 
+
 
 
 
@@ -3993,6 +4044,8 @@ height: 100%;
     
     }
 
+    
+    
 
 
 }  

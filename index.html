@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-
+    <script src="/idiomas.js"></script>
 </head>
 <body>
 <header class="headerlou">
@@ -62,16 +62,16 @@
     
     <div class="principalNavE">
 
-        <button class="abrirMenuE" id="abrir">Abrir</button>
+        <button class="abrirMenuE" id="abrir" data-i18n="Abrir">Abrir</button>
 
         <div class="menuNavE" id="nav">
             
-            <a href="/index.html"><button>Inicio</button></a>
-            <a href="/quienesSomos.html"><button>Conócenos</button></a>
-            <a href="/rebajas.html"><button>Rebajas</button></a>
-            <a href="/productos.html"><button>Productos</button></a>
-            <a href="/contacto.html"><button>Contacto</button></a>
-            <button class="cerraMenuE" id="cerrar">Cerrar</button>
+            <a href="/index.html"><button data-i18n="inicio">Inicio</button></a>
+            <a href="/quienesSomos.html"><button data-i18n="conocenos">Conócenos</button></a>
+            <a href="/rebajas.html"><button data-i18n="rebajas">Rebajas</button></a>
+            <a href="/productos.html"><button data-i18n="productos">Productos</button></a>
+            <a href="/contacto.html"><button data-i18n="contacto">Contacto</button></a>
+            <button class="cerraMenuE" id="cerrar" data-i18n="cerrar">Cerrar</button>
            
         </div>
     </div>
@@ -81,17 +81,18 @@
     <div class="secundarioNavE">
 
         <div class="idiomasNavE">
-            <a href=""><button>ES </button></a>
-            <a href=""><button>EN </button></a>
+            <a href="#"><button onclick="cambiarIdioma('es')" id="botonCastellano">ES </button></a>
+            <a href="#"><button onclick="cambiarIdioma('en')"  id="botonIngles">EN </button></a>
             <!-- <a href=""><button>EU &nbsp</button></a> -->
         </div>
 
         <div class="loginMobileE"><a href="acceso.html"><img src="logo+iconos/Vector.svg" alt=""></a>
         </div>
+        
 
         <div class="idiomasNavTabletE">
-            <a href=""><button>ES </button></a>
-            <a href=""><button>EN </button></a>
+            <a href="#"><button onclick="cambiarIdioma('es')"  id="botonCastellano" >ES </button></a>
+            <a href="#"><button onclick="cambiarIdioma('en')" id="botonIngles" >EN </button></a>
             <!-- <a href=""><button>EU </button></a> -->
         </div>
     </div>
@@ -108,20 +109,20 @@
         </div>
 
         <div class="botonesEntrada_R">
-            <a href="/productos.html"><button class="botonesIndividualmente_R">PRODUCTOS</button></a>
-            <a href="/rebajas.html"><button class="botonesIndividualmente_R">REBAJAS</button></a>
+            <a href="/productos.html"><button class="botonesIndividualmente_R" data-i18n="productos">PRODUCTOS</button></a>
+            <a href="/rebajas.html"><button class="botonesIndividualmente_R" data-i18n="rebajas">REBAJAS</button></a>
         </div>
     </div>
     <div class="parte_2_JI">
         <!-- Titulo -->
-        <div class="titulo_JI">
+        <div class="titulo_JI" data-i18n="tituloIndex">
             <h1>
                 FALTA POCO PARA LA PRIMAVERA
             </h1>
-            <h2>
+            <h2 data-i18n="tiempo">
                 20 DE MARZO
             </h2>
-            <h3>
+            <h3 data-i18n="nuevaColeccion">
                 Nueva colección de Primavera
             </h3>
         </div>
@@ -130,22 +131,22 @@
             <!-- Dias que quedan para la fecha concretada (primavera)-->
             <div id="contenedorDiasJi">
                 <p id="diasJi">20</p>
-                <span>Días</span>
+                <span data-i18n="dias">Días</span>
             </div>
             <!-- Horas que quedan para la fecha concretada (primavera)-->
             <div id="contenedorHorasJi">
                 <p id="horasJi">20</p>
-                <span>Horas</span>
+                <span data-i18n >Horas</span>
             </div>
             <!-- Minutos que quedan para la fecha concretada (primavera)-->
             <div id="contenedorMinutosJi">
                 <p id="minutosJi">20</p>
-                <span>Minutos</span>
+                <span data-i18n >Minutos</span>
             </div>
             <!-- Segundos que quedan para la fecha concretada (primavera)-->
             <div id="contenedorSegundosJi">
                 <p id="segundosJi">20</p>
-                <span>Segundos</span>
+                <span data-i18n >Segundos</span>
             </div>
         </div>
 
@@ -187,7 +188,7 @@
 
 <div class="footerDerJ">
     <div class="textoMetodoPagoJ">
-        <p>Métodos de pago</p>
+        <p data-i18n="metodosPago">Métodos de pago</p>
     </div> 
     <div class="iconosMetodoPagoJ">
         <img src="/img/Visa.svg" alt="">
@@ -203,7 +204,7 @@
 
 <div class="copyrightJ">
 
-    <p> © 2024 - Derechos de autor de Sixtage -</p>
+    <p data-i18n="DerechosAutor"> © 2024 - Derechos de autor de Sixtage -</p>
 
 </div>
  
@@ -272,5 +273,7 @@
     <script src="/js/products.js"></script>
     <script src="/js/app.js"></script>
     <script src="countdown2.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>
 </body>
 </html>
