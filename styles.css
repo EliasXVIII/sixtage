@@ -3422,14 +3422,26 @@ padding-top: 15px;
 /*  POPUP */
 
 @media screen and (max-width: 1384px) {
-    .popupDerechaA img {
-        width: 50%;
-    }
+   
 
     .popupIzquierdaA {
         width: 50%;
     }
 
+.logoLogoA{
+    display: none;
+}
+
+.tituloLogo1A{
+    justify-content: center;
+    align-items: center;
+    border:0.2rem solid red;
+    width: 90%;
+}
+
+.tituloLogo1A h1{
+    font-size: 3rem;
+}
 
 }
 
@@ -3641,6 +3653,7 @@ padding-top: 15px;
 }
                     
 
+}
 
 
 
@@ -3878,8 +3891,17 @@ padding-top: 15px;
 
 
 
+@media screen and (max-width: 750px){
 
+        
+        .popupDerechaA{
+        
+            width: 80%;
+            height: 80%;
+        }
 
+
+}
 
 
 
@@ -4086,8 +4108,11 @@ padding-top: 15px;
     
     }
 
-    
+    /* ----------pop up------andres---------- */
 
+
+
+    .popupDerechaA{display: none;}
 }  
 
 
@@ -4232,4 +4257,3 @@ padding-top: 15px;
     }
     
 }
-
