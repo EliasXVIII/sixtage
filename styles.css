@@ -3225,23 +3225,6 @@ color: white !important;
 
 
 
-/* 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
-
-
-
-
-
-
-
-
-
-
-ogo+iconos/logo sexta
-
-100px
 
 
 
@@ -3259,12 +3242,7 @@ ogo+iconos/logo sexta
 
 
 
-height: 5rem;
-gap: 5rem;
 
-height: 5rem;
-gap: 5rem;
-padding-top: 15px;
 
 
 
@@ -3275,16 +3253,39 @@ padding-top: 15px;
 /* Contenedor del main donde esta la parte del main de carrito de compra y descripción del producto */
 .MainDescripcionProducto_JI{ display: flex;
                              width: 100%;
-                             flex-direction: column;
+                             /* flex-direction: column; */
                              justify-content: center;
                              align-items: center;
                            }
 
 .MainDescripcionProducto_JI .contenedorDescripciones_JI {
-border: solid black 2px;
-width: 800%;
+border: solid pink 2px;
+width: 100%;
 height: 100%;
-}                         
+/* display: flex; */
+
+}     
+.contenedorgaleria{
+    width: 100%;
+    height: 20rem;
+    border: solid blue;
+    background-image:url/* (imgRebajas/rebaja9.png); */
+}
+.galeriaminiaturas img{
+    
+    width:8rem;
+    height: 20%;
+  
+ /*  border: solid red 2px; */
+
+}
+
+.galeriaminiaturas{
+    display: flex;
+}
+.flechas{
+    display: flex;
+}
 
 /* Parte del titulo de las paginas */
 .tituloDescripcion_JI{ display: flex;

@@ -26,6 +26,15 @@
     "inicia": "Log In",
     "carrito": "Shopping Cart",
     "seguir": "CONTINUE SHOPPING",
-    "iniciaRegistrar": "SIGN IN OR REGISTER"
+    "iniciaRegistrar": "SIGN IN OR REGISTER",
+    "descripcionProducto": "Product Description",
+    "PoliticaEntrega": "Delivery Policy",
+    "entregaStandar": "Standard Delivery to home within 3-6 business days.",
+    "entregaExpress": "Express Delivery within a maximum of 48 hours within the PENINSULA",
+    "recogidaTienda": "In-store Pickup: It will be sent to the store you request within our establishments.",
+    "tituloDevoluciones": "Return Policy",
+    "Devoluciones": "14 days from delivery to complete the quick and easy return and exchange process."
+  
+  
   }
   
