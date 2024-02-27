@@ -1,12 +1,12 @@
 // Función para mostrar la ventana emergente después de un cierto retraso
 function displayPopup() {
-    var popup = document.getElementById("popup");
+    var popup = document.getElementById("emailFormPopup");
     popup.style.display = "block";
   }
   
   // Función para cerrar la ventana emergente
   function closePopup() {
-    var popup = document.getElementById("popup");
+    var popup = document.getElementById("emailFormPopup");
     popup.style.display = "none";
   }
   

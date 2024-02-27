@@ -1912,20 +1912,25 @@ margin-left: 1rem;
 }
 
 .botonPruebaGratisA {
+    height: 20%;
+    width: 25%;
     display: flex;
-    margin: 8%;
-
+    margin: 10%;
+    border-radius: 10px;
 }
 
 .botonPruebaGratis1A {
+    justify-content: center;
     align-items: center;
     width: 100%;
     height: 100%;
-    border-radius: 5%;
+    border-radius: 25px;
     color: white;
     background-color: black;
     font-size: larger;
-    margin-right: 75%;
+    /* margin-right: 75%; */
+    cursor: pointer;
+    
 }
 .contactoImagenA{
     overflow: hidden;
@@ -2016,8 +2021,10 @@ margin-left: 1rem;
 
 .botonSuscribeteA {
     font-size:xx-large;
-    width: 100%;
+    width: 80%;
     background-color:#B1FCB3;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 10px 20px;
     cursor: pointer;
     border-radius: 10px;
@@ -2028,7 +2035,7 @@ margin-left: 1rem;
 }
 
 .botonSuscribete1A {
-    width: 80%;
+    width: 100%;
 }
 
 .botonNoGraciasA {
@@ -2045,7 +2052,7 @@ margin-left: 1rem;
     }
 
 .botonNoGracias1A {
-    width: 80%;
+    width: 100%;
 }
 
 .segundaMitadA {
@@ -2054,10 +2061,14 @@ margin-left: 1rem;
     align-items: center;
 }
 
-.correoElectronicoA {
+.correoElectronicoA  {
     width: 100%;
     margin-left: 10%;
     margin-bottom: 3%;
+}
+
+#emailForm {
+    width: 100%;
 }
 
 .correoElectronico1A {
@@ -2263,6 +2274,8 @@ margin-left: 1rem;
     background-color: #89FCB3;
     border-radius: 7px;
     border: 2px solid #000;
+    cursor: pointer;
+    
 }
 
 .botonFormularioCerrarA {
@@ -2385,6 +2398,7 @@ margin-left: 1rem;
   
   .popup-content {
      color: white; 
+     
 
   }
   
@@ -2401,19 +2415,19 @@ margin-left: 1rem;
   /* --------- Gracias! pop Up ------- */
 
   .popup2 {
-    
+    display: none;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: x-large;
     background-color: #89FCB3;
-    
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     z-index: 999;
     color: black;
+
   }
 
   .popup2 h2 {
@@ -3734,7 +3748,7 @@ height: 100%;
 
 }
 .popupDerechaA{
-    with:100%;
+    width:100%;
     height: 200%;
     justify-content: center;
     align-items: center;
