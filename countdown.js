@@ -32,7 +32,7 @@ const  cuentaRegresiva = (deadline, elem, finalMessage) => {
     }, 1000)
 };
 
-cuentaRegresiva('Feb 19 2024 14:04:00 GMT+0100', 'contenedorCuentaAtras_JI', 'Colección Primavera');
+cuentaRegresiva('Feb 28 2024 09:30:00 GMT+0100', 'contenedorCuentaAtras_JI', 'llego primavera');
 
 
 // https://youtu.be/ZbF5qomB8XM?si=t2rYyupPUMEehWQZ
