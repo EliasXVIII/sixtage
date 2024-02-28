@@ -11,7 +11,7 @@ function displayPopup() {
   }
   
   // Retraso en milisegundos antes de mostrar la ventana emergente
-  var delayInMilliseconds = 2000; // 5 segundos
+  var delayInMilliseconds = 7000; // 5 segundos
   
   // Espera el retraso especificado y luego muestra la ventana emergente
   setTimeout(displayPopup, delayInMilliseconds);
