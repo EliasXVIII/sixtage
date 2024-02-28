@@ -38,8 +38,23 @@
     "emailPop": "Email:",
     "suscribete": "Suscribete",
     "noGracias": "No gracias",
-    "parrafoPop": "Al hacer clic en suscribirse, estás verificando que esta es tu información y en respuesta a tu solicitud, aceptas recibir comunicaciones por correoelectrónico de blabla.com sobre nuestras noticias, eventos y ofertas. Usted comprende que su consentimiento no es una condición de compra y que puede optar por no participar en cualquier momento. También acepta nuestros Términos de uso y el uso que hacemos de su información según lo establecido en nuestra Política de privacidad."
-    
+    "parrafoPop": "Al hacer clic en suscribirse, estás verificando que esta es tu información y en respuesta a tu solicitud, aceptas recibir comunicaciones por correoelectrónico de blabla.com sobre nuestras noticias, eventos y ofertas. Usted comprende que su consentimiento no es una condición de compra y que puede optar por no participar en cualquier momento. También acepta nuestros Términos de uso y el uso que hacemos de su información según lo establecido en nuestra Política de privacidad.",
+    "textoContacto": "Ya sea que tenga curiosidad sobre nuestro servicio, una pureba gratuita o incluso prensa gratuita, estamos listos para responder todas y cada una de sus preguntas.",
+    "Contactanos": "Contactanos",
+    "sus": "Suscribete a nuestro Email",
+    "dire": "Direccion:",
+    "bla": "avenida bla bla",
+    "cp": "codigo postal: 65465",
+    "ciudad": "Ciudad: Bilbao",
+    "formularioTexto": "Comencemos esta conversación. Cuéntanos un poco sobre tí y nos pondremos en contacto tan pronto como podamos.",
+    "nombre": "Nombre",
+    "apellido": "Apellido",
+    "tlf": "Numero de telefono",
+    "mensaje": "Mensaje:",
+    "enviar": "Enviar",
+    "gracias": "Gracias!",
+    "confirmacion": "Tu suscripción está confirmada. Gracias por suscribirse!"
+
 
   }
   

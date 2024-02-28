@@ -38,6 +38,21 @@
     "emailPop": "Email:",
     "suscribete": "Subscribe",
     "noGracias": "No, Thanks",
-    "parrafoPop": "By clicking subscribe, you are confirming that this is your information and in response to your request, you consent to receive email communications from blabla.com about our news, events, and offers. You understand that your consent is not a condition of purchase and you may opt out at any time. You also agree to our Terms of Use and the use of your information as set forth in our Privacy Policy."
+    "parrafoPop": "By clicking subscribe, you are confirming that this is your information and in response to your request, you consent to receive email communications from blabla.com about our news, events, and offers. You understand that your consent is not a condition of purchase and you may opt out at any time. You also agree to our Terms of Use and the use of your information as set forth in our Privacy Policy.",
+    "textoContacto": "Whether you're curious about our service, a free trial, or even free press, we're ready to answer each and every one of your questions.",
+    "Contactanos": "Contact Us",
+    "sus": "Subscribe to Our Email",
+    "dire": "Address:",
+    "bla": "bla bla avenue",
+    "cp": "postal code: 65465",
+    "ciudad": "City: Bilbao",
+    "formularioTexto": "Let's start this conversation. Tell us a bit about yourself and we'll get in touch as soon as we can.",
+    "nombre": "Name",
+    "apellido": "Surname",
+    "tlf": "Phone Number",
+    "mensaje": "Message:",
+    "enviar": "Send",
+    "gracias": "Thank you!",
+    "confirmacion": "Your subscription is confirmed. Thank you for subscribing!"
   }
   

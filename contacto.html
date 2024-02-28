@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap"
         rel="stylesheet">
-
+    <script src="/idiomas.js"></script>
 
 </head>
 
@@ -58,17 +58,16 @@
 
         <div class="principalNavE">
 
-            <button class="abrirMenuE" id="abrir">Abrir</button>
-
+            <button class="abrirMenuE" id="abrir" data-i18n="Abrir">Abrir</button>
+    
             <div class="menuNavE" id="nav">
-
-                <a href="/index.html"><button>Inicio</button></a>
-                <a href="/quienesSomos.html"><button>Conócenos</button></a>
-                <a href="/rebajas.html"><button>Rebajas</button></a>
-                <a href="/productos.html"><button>Productos</button></a>
-                <a href="/contacto.html"><button>Contacto</button></a>
-                <button class="cerraMenuE" id="cerrar">Cerrar</button>
-
+                
+                <a href="/index.html"><button data-i18n="inicio">Inicio</button></a>
+                <a href="/quienesSomos.html"><button data-i18n="conocenos">Conócenos</button></a>
+                <a href="/rebajas.html"><button data-i18n="rebajas">Rebajas</button></a>
+                <a href="/productos.html"><button data-i18n="productos">Productos</button></a>
+                <a href="/contacto.html"><button data-i18n="contacto">Contacto</button></a>
+                <button class="cerraMenuE" id="cerrar" data-i18n="cerrar">Cerrar</button>
             </div>
         </div>
 
@@ -77,8 +76,8 @@
         <div class="secundarioNavE">
 
             <div class="idiomasNavE">
-                <a href=""><button>ES </button></a>
-                <a href=""><button>EN </button></a>
+                <a href="#"><button onclick="cambiarIdioma('es')" id="botonCastellano">ES </button></a>
+                <a href="#"><button onclick="cambiarIdioma('en')"  id="botonIngles">EN </button></a>
                 <!-- <a href=""><button>EU &nbsp</button></a> -->
             </div>
 
@@ -86,8 +85,8 @@
             </div>
 
             <div class="idiomasNavTabletE">
-                <a href=""><button>ES </button></a>
-                <a href=""><button>EN </button></a>
+                <a href="#"><button onclick="cambiarIdioma('es')" id="botonCastellano">ES </button></a>
+                <a href="#"><button onclick="cambiarIdioma('en')"  id="botonIngles">EN </button></a>
                 <!-- <a href=""><button>EU </button></a> -->
             </div>
         </div>
@@ -118,12 +117,12 @@
                     </div>
 
                     <div class="contactoH2A">
-                        <h2>Contacto</h2>
+                        <h2 data-i18n="contacto">Contacto</h2>
                     </div>
 
                     <div class="contactoTxtBtnA">
                         <div class="contactoTextoA">
-                            <p>Ya sea que tenga curiosidad sobre
+                            <p data-i18n="textoContacto">Ya sea que tenga curiosidad sobre
                                 nuestro servicio, una pureba gratuita o
                                 incluso prensa gratuita, estamos listos
                                 para responder todas y cada una de sus
@@ -133,7 +132,7 @@
                         <div class="contactoBotonA">
                             <!-- <button href="#" onclick="toggle() id="muestraFormularioA" class="contactoBoton1A">Contáctanos</button> -->
                             <!-- <a href="#" onclick="toggle()">Readmore</a> -->
-                            <button href="#" onclick="toggle()">Contactanos</button>
+                            <button href="#" onclick="toggle()" data-i18n="Contactanos">Contactanos</button>
                         </div>
                     </div>
 
@@ -144,17 +143,17 @@
                     <div class="botonDireccionA">
 
                         <div class="botonPruebaGratisA">
-                            <button class="botonPruebaGratis1A" onclick="displayPopup()">Suscribete a nuestro Email</button>
+                            <button class="botonPruebaGratis1A" onclick="displayPopup()" data-i18n="sus">Suscribete a nuestro Email</button>
                         </div>
 
                         <div class="direccionVisita1A">
                             <div class="direccionVisitaA">
-                                <h3>Visitanos en:</h3>
+                                <h3 data-i18n="sus">Visitanos en:</h3>
                                 <br>
-                                <p>Direccion:</p>
-                                <p>avenida bla bla</p>
-                                <p>codigo postal: 65465</p>
-                                <p>Ciudad: Bilbao</p>
+                                <p data-i18n="dire">Direccion:</p>
+                                <p data-i18n="bla">avenida bla bla</p>
+                                <p data-i18n="cp">codigo postal: 65465</p>
+                                <p data-i18n="ciudad">Ciudad: Bilbao</p>
                             </div>
                         </div>
 
@@ -196,10 +195,10 @@
 
                     <div class="formularioParte1A">
                         <div class="contactanosH3A">
-                            <h3>Contactanos</h3>
+                            <h3 data-i18n="Contactanos">Contactanos</h3>
                         </div>
                         <div class="contactanosTextoA">
-                            <p>Comencemos esta conversación. Cuéntanos
+                            <p data-i18n="formularioTexto">Comencemos esta conversación. Cuéntanos
                                 un poco sobre tí y nos pondremos en
                                 contacto tan pronto como podamos.</p>
                         </div>
@@ -210,14 +209,14 @@
                             <div class="nombreApellidoA">
                                 <div class="formularioNombreA">
                                     <div class="FormularioNombreH3A">
-                                        <h3>Nombre</h3>
+                                        <h3 data-i18n="nombre">Nombre</h3>
                                     </div>
                                     <div class="FormularioNombreInputA"><input type="text" id="name"
                                             placeholder="Nombre" required></div>
                                 </div>
                                 <div class="formularioApellidoA">
                                     <div class="FormularioApellidoH3A">
-                                        <h3>Apellido</h3>
+                                        <h3 data-i18n="apellido">Apellido</h3>
                                     </div>
                                     <div class="FormularioApellidoInputA"><input type="text" id="name"
                                             placeholder="Apellido" required></div>
@@ -226,29 +225,29 @@
                             </div>
                             <div>
                                 <div class="emailH3A">
-                                    <h3>Email:</h3>
+                                    <h3 data-i18n="emailPop">Email:</h3>
                                 </div>
                                 <div class="emaiInputA"><input type="email" id="email" placeholder="Correo elctronico"
                                         required></div>
                                 <div class="telefonoH3A">
-                                    <h3>Numero de telefono</h3>
+                                    <h3 data-i18n="tlf">Numero de telefono</h3>
                                 </div>
                                 <div class="telefonoInputA"><input type="text" id="phone"
                                         placeholder="Numero de telefono" required></div>
                                 <div class="mensajeH3A">
-                                    <h3>Mensaje:</h3>
+                                    <h3 data-i18n="mensaje">Mensaje:</h3>
                                 </div>
                                 <div><textarea class="textareaFormularioA" rows="10" id="message"
                                         placeholder="En que te podemos ayudar?"></textarea></div>
 
                                 <div class="botonFormularioA">
-                                    <button action="submit.php" method="post" type="submit">Enviar</button>
+                                    <button action="submit.php" method="post" type="submit" data-i18n="enviar">Enviar</button>
                                     <!-- <button href="#" onclick="toggle()" type="submit">Enviar</button> -->
                                     <!-- <a href="#" onclick="toggle()">Cerrar</a> -->
                                 </div>
 
                                 <div class="botonFormularioCerrarA">
-                                    <button href="#" onclick="toggle()">Cerrar</button>
+                                    <button href="#" onclick="toggle()" data-i18n="cerrar">Cerrar</button>
                                 </div>
 
 
@@ -313,7 +312,7 @@
                         </form>
             
                         <div class="botonNoGracias1A"><button  onclick="closePopup()" class="botonNoGraciasA" Suscribete data-i18n="noGracias">No gracias</button></div>
-                        <div class="segundaMitadTextoA"><p ata-i18n="parrafoPop">Al hacer clic en suscribirse, 
+                        <div class="segundaMitadTextoA"><p data-i18n="parrafoPop">Al hacer clic en suscribirse, 
                             estás verificando que esta es tu 
                             información y en respuesta a tu solicitud, 
                             aceptas recibir comunicaciones por correo
@@ -348,8 +347,8 @@
               <div id="thankYouPopup" class="popup2">
                 <div class="popup-content">
                     <span class="close-btn" onclick="closeThankYouPopup()">×</span>
-                    <h2>Gracias!</h2>
-                    <p>Tu suscripción está confirmada. Gracias por suscribirse!</p>
+                    <h2 data-i18n="gracias">Gracias!</h2>
+                    <p data-i18n="confirmacion">Tu suscripción está confirmada. Gracias por suscribirse!</p>
                 </div>
             </div>
             
@@ -401,7 +400,7 @@
 
         <div class="footerDerJ">
             <div class="textoMetodoPagoJ">
-                <p>Métodos de pago</p>
+                <p data-i18n="metodosPago">Métodos de pago</p>
             </div>
             <div class="iconosMetodoPagoJ">
                 <img src="/img/Visa.svg" alt="">
@@ -417,10 +416,12 @@
 
     <div class="copyrightJ">
 
-        <p> © 2024 - Derechos de autor de Sixtage -</p>
+        <p data-i18n="DerechosAutor"> © 2024 - Derechos de autor de Sixtage -</p>
 
     </div>
     <div id="modal-container" class="modal-container"></div>
     <script src="/js/carrito.js"></script>
     <script src="/js/products.js"></script>
     <script src="/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next/dist/umd/i18next.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/i18next-browser-languagedetector/dist/umd/i18nextBrowserLanguageDetector.min.js"></script>

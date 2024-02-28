@@ -32,10 +32,6 @@ productos.forEach((product) => {
                 }
             });
         
-
-        
-
-
         }else{
         carrito.push({
             id: product.id,
@@ -61,7 +57,6 @@ productos.forEach((product) => {
 const saveLocal = () => {
     localStorage.setItem("carrito", JSON.stringify(carrito));
 };
-
 
 //Get item para obtener esa info.
 

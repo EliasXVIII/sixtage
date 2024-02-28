@@ -38,7 +38,22 @@
     "emailPop": "Emaila:",
     "suscribete": "Harpidetu",
     "noGracias": "Ez, Eskerrik asko",
-     "parrafoPop": "Suskrin egiten klik eginez, zure informazioa zela hau baieztatzen duzu eta zure eskaeraren erantzuna dela-eta, blabla.com-etik posta elektronikoaren bitartez gure albisteak, ekitaldiak eta eskaintzak jaso nahi dituzula onartzen duzu. Zure baimena erosketa baldintza bat ez dela eta ulertzen duzu eta momentu batean utzi dezakezula. Gure Erabilera baldintzak eta zure informazioaren erabilera ere onartzen dituzu gure Pribatutasun Politikak ezarritako moduan."
+     "parrafoPop": "Suskrin egiten klik eginez, zure informazioa zela hau baieztatzen duzu eta zure eskaeraren erantzuna dela-eta, blabla.com-etik posta elektronikoaren bitartez gure albisteak, ekitaldiak eta eskaintzak jaso nahi dituzula onartzen duzu. Zure baimena erosketa baldintza bat ez dela eta ulertzen duzu eta momentu batean utzi dezakezula. Gure Erabilera baldintzak eta zure informazioaren erabilera ere onartzen dituzu gure Pribatutasun Politikak ezarritako moduan.",
+     "textoContacto": "Zure zerbitzuari, proba dohaini bati edo prentsari buruzko zalantzak badituzu ere, zure galderak erantzeko prest gaude.",
+    "Contactanos": "Kontaktatu gaitzazu",
+    "sus": "Gure posta elektronikoa harpidetu",
+    "dire": "Helbidea:",
+    "bla": "bla bla kalea",
+    "cp": "posta kodea: 65465",
+    "ciudad": "Hiria: Bilbo",
+    "formularioTexto": "Hasi ezazu elkarrizketa hau. Esan zerbait zure buruari buruz eta laster kontaktuan jarriko gara.",
+    "nombre": "Izena",
+    "apellido": "Abizena",
+    "tlf": "Telefono zenbakia",
+    "mensaje": "Mezua:",
+    "enviar": "Bidali",
+    "gracias": "Eskerrik asko!",
+    "confirmacion": "Zure harpiderea baieztapena da. Harpidetu zaitezela eskertzen zaitugu!"
     
     
 }
