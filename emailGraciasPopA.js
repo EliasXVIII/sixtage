@@ -1,33 +1,28 @@
-// Open Email Form Popup
-function openEmailFormPopup() {
-    document.getElementById("emailFormPopup").style.display = "block";
-  }
-  
-  // Close Email Form Popup
+
+  // Cierra la ventana del formulario de correo electrónico
   function closeEmailFormPopup() {
     document.getElementById("emailFormPopup").style.display = "none";
   }
   
-  // Open Thank You Popup
+  // Abre ventana emergente de agradecimiento
   function openThankYouPopup() {
     document.getElementById("thankYouPopup").style.display = "block";
   }
   
-  // Close Thank You Popup
+  // Cierra ventana de agradecimiento con (x)
   function closeThankYouPopup() {
     document.getElementById("thankYouPopup").style.display = "none";
   }
   
-  // Form Submission Event
+  // Evento de envío de formulario
   document.getElementById("emailForm").addEventListener("submit", function(event) {
-    event.preventDefault(); // Prevent default form submission
+    event.preventDefault(); // Evita el envío de formulario predeterminado
+
   
-    // You can add AJAX code here to submit the form data to the server
-  
-    // Show Thank You Popup
+    // Muestra ventana de agradecimiento
     openThankYouPopup();
   
-    // Close Email Form Popup
+    // Cierra la ventana emergente del formulario de correo electrónico
     closeEmailFormPopup();
   });
 

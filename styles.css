@@ -725,7 +725,7 @@ main{
                             font-size: 1rem;
                             color: white;
                             box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
-                            border:0.1rem solid white;
+                            border:0.3rem solid white;
                             border-radius: 30%;
                             border-radius: 60px;
                             padding: 1rem;
@@ -2320,10 +2320,6 @@ margin-left: 1rem;
     top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-    /* width: 600px; */
-    /* padding: 50px; */
-    /* box-shadow: 0 5px 30px rgba(0, 0, 0, .30); */
-    /* background: #fff; */
     visibility: hidden;
     opacity: 0;
     transition: 0.5s;
