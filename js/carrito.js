@@ -99,7 +99,7 @@ const eliminarProducto = (id) => {
 
 };
 
-
+//muestra la cantidad de elementos en el carro desde la Web
 const carritoCounter = () => {
     cantidadCarrito.style.display="block";
     const carritoLength = carrito.length;
