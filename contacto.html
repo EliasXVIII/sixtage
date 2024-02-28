@@ -144,12 +144,7 @@
                     <div class="botonDireccionA">
 
                         <div class="botonPruebaGratisA">
-                            <button class="botonPruebaGratis1A">Suscribete a nuestro Emai</button>
-
-                            <!--<button type="button" class="pheasant-demure-button solid dark round-corner">
-                            <span class="label">Gratis email</span>
-                          </button> -->
-
+                            <button class="botonPruebaGratis1A" onclick="displayPopup()">Suscribete a nuestro Email</button>
                         </div>
 
                         <div class="direccionVisita1A">
@@ -288,11 +283,95 @@
 
 
 
+            <div class="popup" id="emailFormPopup">
+                <div class="popup-content">
+                  <!-- <span class="close" onclick="closePopup()">&times;</span> -->
+            
+            
+            <div class="popupMainA">
+            
+                <div class="popupIzquierdaA">
+                    <div class="tituloLogoA">
+                    <div class="tituloLogo1A"><h1 data-i18n="tituloPop">Sé el primero en saber</h1></div>
+                    <div class="logoLogoA"><img class="logoLogo1A" src="/logo+iconos/logo-sextage.svg" alt=""></div>
+                    </div>
+            
+                    <div class="popUpEmailH2A"><h2 data-i18n="emailPop">Email:</h2></div>
+            
+                    <div class="segundaMitadA">
+                        <form id="emailForm">
+                            <div class="correoElectronicoA">
+                        
+                                <input class="correoElectronico1A" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                            </div>
+            
+            
+                            <div class="botonSuscribete1A">
+                                <button  type="submit" class="botonSuscribeteA" data-i18n="suscribete">Suscribete</button>
+                            </div>
+            
+                        </form>
+            
+                        <div class="botonNoGracias1A"><button  onclick="closePopup()" class="botonNoGraciasA" Suscribete data-i18n="noGracias">No gracias</button></div>
+                        <div class="segundaMitadTextoA"><p ata-i18n="parrafoPop">Al hacer clic en suscribirse, 
+                            estás verificando que esta es tu 
+                            información y en respuesta a tu solicitud, 
+                            aceptas recibir comunicaciones por correo
+                             electrónico de blabla.com sobre nuestras noticias, 
+                             eventos y ofertas. Usted comprende que su 
+                             consentimiento no es una condición de compra y que 
+                             puede optar por no participar en cualquier momento. 
+                             También acepta nuestros Términos de uso y el uso que 
+                             hacemos de su información según lo establecido en 
+                             nuestra Política de privacidad.</p></div>
+                    </div>
+                </div>
+            
+            
+                <div class="popupDerechaA">
+                    <img src="/img/popUpPic.jpg" alt="">
+                </div>
+            
+            
+            
+            
+            </div>
+            
+            
+            
+            
+                </div>
+              </div>
+            
+              <!-- -------------- Gracias email! popUP --------- -->
+            
+              <div id="thankYouPopup" class="popup2">
+                <div class="popup-content">
+                    <span class="close-btn" onclick="closeThankYouPopup()">×</span>
+                    <h2>Gracias!</h2>
+                    <p>Tu suscripción está confirmada. Gracias por suscribirse!</p>
+                </div>
+            </div>
+            
+
+            
+
+
+
+
+            
+
+
+
+
+
+
 
 
 
 
             <script src="contactoPopUpA.js"></script>
+            <script src="/scriptPopUPA.js"></script>
 
     </main>
 

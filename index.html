@@ -155,13 +155,10 @@
 <!--         Parte Popup
  -->
 
- <div class="popup" id="popup">
+ <div class="popup" id="emailFormPopup">
     <div class="popup-content">
       <!-- <span class="close" onclick="closePopup()">&times;</span> -->
-      <!--   -->
 
-<!--       ----adicion sixtage-----
--->
 
 <div class="popupMainA">
 
@@ -174,11 +171,19 @@
         <div class="popUpEmailH2A"><h2 data-i18n="emailPop">Email:</h2></div>
 
         <div class="segundaMitadA">
-            <div class="correoElectronicoA"><form id="emailForm">
-                <input class="correoElectronico1A" type="email" id="email" name="email" placeholder="Introduce tu correo electrónico" required></form>
-            </div>
+            <form id="emailForm">
+                <div class="correoElectronicoA">
+            
+                    <input class="correoElectronico1A" id="email" name="email" placeholder="Introduce tu correo electrónico" required>
+                </div>
 
-            <div class="botonSuscribete1A"><button  class="botonSuscribeteA" data-i18n="suscribete">Suscribete</button></div>
+
+                <div class="botonSuscribete1A">
+                    <button  type="submit" class="botonSuscribeteA" data-i18n="suscribete">Suscribete</button>
+                </div>
+
+            </form>
+
             <div class="botonNoGracias1A"><button  onclick="closePopup()" class="botonNoGraciasA" Suscribete data-i18n="noGracias">No gracias</button></div>
             <div class="segundaMitadTextoA"><p ata-i18n="parrafoPop">Al hacer clic en suscribirse, 
                 estás verificando que esta es tu 
@@ -200,9 +205,9 @@
     </div>
 
 
+
+
 </div>
-
-
 
 
 
@@ -210,12 +215,24 @@
     </div>
   </div>
 
+  <!-- -------------- Gracias email! popUP --------- -->
+
+  <div id="thankYouPopup" class="popup2">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closeThankYouPopup()">×</span>
+        <h2>Gracias!</h2>
+        <p>Tu suscripción está confirmada. Gracias por suscribirse!</p>
+    </div>
+</div>
+
+
+
+<script src="/emailGraciasPopA.js"></script>
   <script src="scriptPopUPA.js"></script>
 
 
 
-<!--             parte popUp
- -->
+<!--             parte popUp    -->
 </main>
 
 
