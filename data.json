@@ -1,0 +1,142 @@
+[
+    {   "id": 1,
+        "nombre": "Pantalon Cuadros", 
+        "precio": 78,
+        "img": "/imgproductos/producto1.png",
+        "cantidad": 1
+    },
+    {
+        "id": 3,
+        "nombre": "Chaqueta Patch", 
+        "precio": 62,
+        "img": "/imgproductos/producto2.png",
+        "cantidad": 1
+    
+    },
+    {
+        "id": 2,
+        "nombre": "Pantalon",
+        "precio": 42,
+        "img": "/img/pantalon.jpg",
+        "cantidad": 1
+    
+    },
+    {
+        "id": 4,
+        "nombre": "Polo Hilo", 
+        "precio": 56,
+        "img": "/imgproductos/producto3.png",
+        "cantidad": 1
+    },
+    {
+        "id": 5,
+        "nombre": "Conjunto", 
+        "precio": 78,
+        "img": "/imgproductos/producto4.png",
+        "cantidad": 1
+    },
+    {
+        "id": 6,
+        "nombre": "falda Vaquera", 
+        "precio": 41,
+        "img": "/imgproductos/producto5.png",
+        "cantidad": 1
+    },
+    {
+        "id": 7,
+        "nombre": "Gorra", 
+        "precio": 24,
+        "img": "/imgproductos/producto6.png",
+        "cantidad": 1
+    },
+    {
+        "id": 8,
+        "nombre": "Pantalon Campana", 
+        "precio": 62,
+        "img": "/imgproductos/producto8.png",
+        "cantidad": 1
+    },
+    {
+        "id": 9,
+        "nombre": "Tacones", 
+        "precio": 68,
+        "img": "/imgproductos/producto9.png",
+        "cantidad": 1
+    },
+    {
+        "id": 10,
+        "nombre": "Lazo", 
+        "precio": 17,
+        "img": "/imgproductos/producto7.png",
+        "cantidad": 1
+    },  
+    {   "id": 28,
+        "nombre": "Camisa Cuadro", 
+        "precio": 25,
+        "img": "/imgRebajas/rebaja9.png",
+        "cantidad": 1
+    },
+    {
+        "id": 21,
+        "nombre": "Camisa Cuadros",
+        "precio": 33,
+        "img": "/imgRebajas/rebaja2.png",
+        "cantidad": 1
+    
+    },
+    {   "id": 26,
+        "nombre": "Zapato mujer", 
+        "precio": 34,
+        "img": "/imgRebajas/rebaja7.png",
+        "cantidad": 1
+    },
+    {   "id": 22,
+        "nombre": "Jersey Margarita", 
+        "precio": 12,
+        "img": "/imgRebajas/rebaja3.png",
+        "cantidad": 1
+    },
+    {
+        "id": 23,
+        "nombre": "Pantalón Pana",
+        "precio": 16,
+        "img": "/imgRebajas/rebaja4.png",
+        "cantidad": 1
+    
+    },
+    {   "id": 24,
+        "nombre": "Zapatos Piel", 
+        "precio": 33,
+        "img": "/imgRebajas/rebaja5.png",
+        "cantidad": 1
+    },
+    {
+        "id": 25,
+        "nombre": "Chupa Cuero",
+        "precio": 29,
+        "img": "/imgRebajas/rebaja6.png",
+        "cantidad": 1
+    
+    },
+    {   "id": 20,
+        "nombre": "Vestido Lunares", 
+        "precio": 18,
+        "img": "/imgRebajas/rebaja1.png",
+        "cantidad": 1
+    },
+    {
+        "id": 27,
+        "nombre": "Vestido Sevillana ",
+        "precio": 21,
+        "img": "/imgRebajas/rebaja8.png",
+        "cantidad": 1
+    },
+    {
+        "id": 29,
+        "nombre": "Jersey Hilo",
+        "precio": 27,
+        "img": "/imgRebajas/rebaja10.png",
+        "cantidad": 1
+    
+    }
+]
