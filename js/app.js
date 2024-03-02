@@ -5,13 +5,14 @@ const cantidadCarrito = document.getElementById("cantidadCarrito");
 
 let carrito = JSON.parse(localStorage.getItem("carrito")) || []; //carrito vacio
 
-/* const getProducts =  async() => {
+const getProducts =  async() => {
     const response = await fetch("data.json");
-    const data = await response.json(); */
-
-    //El aasync es para recorrer el array json
+    const data = await response.json();
+    console.log(data);
+    //El async es para recorrer el array json
 //al forEach le cambio a data.ForEach para que se ejecute cada uno de los elementos del array
-        productos.forEach((product) => {                 
+
+        data.forEach((product) => {                 
         let content = document.createElement("div"); 
         content.className= "card";
         content.innerHTML = `
@@ -52,8 +53,9 @@ let carrito = JSON.parse(localStorage.getItem("carrito")) || []; //carrito vacio
             }
         });
     });
+}
 
-
+getProducts()
 //utilizo .forEach para recorrer el array
 //la palabra "product" la declaro en el .forEach para luego llamar a los elementos
 //con append le digo que shopContent retenga todo lo que tiene content
@@ -64,6 +66,5 @@ const saveLocal = () => {
 };
 
 //Get item para obtener esa info.
-
 JSON.parse(localStorage.getItem("carrito"))
 
