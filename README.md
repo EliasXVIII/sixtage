@@ -16,6 +16,26 @@ Este proyecto es un E-Commerce realizado por alumnos del Bootcamp Full Stack de 
 ## Diseño Responsive
 El proyecto incluye características de diseño responsive mediante consultas de medios. Se definen diferentes diseños para varios tamaños de pantalla como tablet y móvil
 
+## Vista de Usuario
+
+### - Desktop
+![Desktop](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/imagen1Sixtage.png)
+
+### - Tablet
+![TAblet](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/imagenTablet.png)
+
+### - Mobile
+![Mobile](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/imgMobile.png)
+
+### - Login
+![Login](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/login.png)
+
+### Pop Up NewsLetter
+![PopUp](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/popUp.png)
+
+### - Footer
+![Footer](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/footer.png)
+
 ## Colores Corporativos
 
 | Color             | Hex                                                                |
