@@ -18,11 +18,22 @@ El proyecto incluye características de diseño responsive mediante consultas de
 
 ## Vista de Usuario
 
+### - Desktop
 ![Desktop](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/imagen1Sixtage.png)
+
+### - Tablet
 ![TAblet](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/imagenTablet.png)
+
+### - Mobile
 ![Mobile](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/imgMobile.png)
+
+### - Login
 ![Login](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/login.png)
+
+### Pop Up NewsLetter
 ![PopUp](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/popUp.png)
+
+### - Footer
 ![Footer](https://github.com/EliasXVIII/sixtage/blob/main/ImgReadme/footer.png)
 
 ## Colores Corporativos
